@@ -28,7 +28,7 @@ namespace CABApplication
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.tpReadData = new System.Windows.Forms.TabPage();
             this.ReadOut_Grpread = new System.Windows.Forms.GroupBox();
             this.grpReadoptions = new System.Windows.Forms.GroupBox();
@@ -307,10 +307,10 @@ namespace CABApplication
             // 
             this.lngGridViewReadControl1.AutoScroll = true;
             this.lngGridViewReadControl1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(23)))), ((int)(((byte)(42)))));
-            this.lngGridViewReadControl1.Location = new System.Drawing.Point(2, 32);
+            this.lngGridViewReadControl1.Location = new System.Drawing.Point(2, 46);
             this.lngGridViewReadControl1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.lngGridViewReadControl1.Name = "lngGridViewReadControl1";
-            this.lngGridViewReadControl1.Size = new System.Drawing.Size(531, 370);
+            this.lngGridViewReadControl1.Size = new System.Drawing.Size(553, 378);
             this.lngGridViewReadControl1.TabIndex = 1;
             this.lngGridViewReadControl1.Load += new System.EventHandler(this.lngGridViewReadControl1_Load);
             // 
@@ -319,7 +319,7 @@ namespace CABApplication
             this.lblInfo.AutoSize = true;
             this.lblInfo.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Italic);
             this.lblInfo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(136)))));
-            this.lblInfo.Location = new System.Drawing.Point(12, 440);
+            this.lblInfo.Location = new System.Drawing.Point(7, 506);
             this.lblInfo.Name = "lblInfo";
             this.lblInfo.Size = new System.Drawing.Size(411, 25);
             this.lblInfo.TabIndex = 55;
@@ -330,7 +330,7 @@ namespace CABApplication
             this.groupBoxReadoutContainer.Controls.Add(this.btnAbort);
             this.groupBoxReadoutContainer.Controls.Add(this.btnRead);
             this.groupBoxReadoutContainer.Controls.Add(this.btnCancel);
-            this.groupBoxReadoutContainer.Location = new System.Drawing.Point(12, 400);
+            this.groupBoxReadoutContainer.Location = new System.Drawing.Point(12, 453);
             this.groupBoxReadoutContainer.Name = "groupBoxReadoutContainer";
             this.groupBoxReadoutContainer.Size = new System.Drawing.Size(360, 50);
             this.groupBoxReadoutContainer.TabIndex = 56;
@@ -401,7 +401,7 @@ namespace CABApplication
             // toolStripProgressBar
             // 
             this.toolStripProgressBar.Name = "toolStripProgressBar";
-            this.toolStripProgressBar.Size = new System.Drawing.Size(100, 14);
+            this.toolStripProgressBar.Size = new System.Drawing.Size(100, 20);
             // 
             // progressBarTimer
             // 
@@ -412,14 +412,14 @@ namespace CABApplication
             this.dgvMeterIdAndSim.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
             this.dgvMeterIdAndSim.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dgvMeterIdAndSim.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 9.5F);
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.MenuHighlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvMeterIdAndSim.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 9.5F);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.MenuHighlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvMeterIdAndSim.DefaultCellStyle = dataGridViewCellStyle1;
             this.dgvMeterIdAndSim.Location = new System.Drawing.Point(0, 0);
             this.dgvMeterIdAndSim.Name = "dgvMeterIdAndSim";
             this.dgvMeterIdAndSim.RowHeadersWidth = 45;
@@ -454,7 +454,7 @@ namespace CABApplication
             // selectAll
             // 
             this.selectAll.AutoSize = true;
-            this.selectAll.Location = new System.Drawing.Point(12, 287);
+            this.selectAll.Location = new System.Drawing.Point(12, 515);
             this.selectAll.Name = "selectAll";
             this.selectAll.Size = new System.Drawing.Size(115, 29);
             this.selectAll.TabIndex = 54;

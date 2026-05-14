@@ -36,28 +36,27 @@ namespace CAB.UI
             this.rdDirect = new System.Windows.Forms.RadioButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.panelRemote = new System.Windows.Forms.Panel();
-            //this.rbtTCP = new System.Windows.Forms.RadioButton();
+            this.rbtTCP = new System.Windows.Forms.RadioButton();
             this.rbtGPRS = new System.Windows.Forms.RadioButton();
             this.rbtPSTN = new System.Windows.Forms.RadioButton();
             this.rbtGSM = new System.Windows.Forms.RadioButton();
             this.panelDirect = new System.Windows.Forms.Panel();
             this.rbtManual = new System.Windows.Forms.RadioButton();
             this.rbtAuto = new System.Windows.Forms.RadioButton();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.chk96IEC = new System.Windows.Forms.CheckBox();
-            this.chk300IEC = new System.Windows.Forms.CheckBox();
-            this.chk96DLMS = new System.Windows.Forms.CheckBox();
             this.lblInitialBaudRate = new CAB.UI.Controls.CABLabel();
             this.cboInitialbaudRate = new System.Windows.Forms.ComboBox();
             this.cboBaudRate = new System.Windows.Forms.ComboBox();
             this.COMPortSet_lblBaudRate = new CAB.UI.Controls.CABLabel();
             this.cboPort = new System.Windows.Forms.ComboBox();
             this.COMPortSet_lblCOMPort = new CAB.UI.Controls.CABLabel();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.chk96IEC = new System.Windows.Forms.CheckBox();
+            this.chk300IEC = new System.Windows.Forms.CheckBox();
+            this.chk96DLMS = new System.Windows.Forms.CheckBox();
             this.lngbCancel = new CAB.UI.Controls.CABButton();
             this.lngbSave = new CAB.UI.Controls.CABButton();
             this.btnModemConfig = new CAB.UI.Controls.CABButton();
             this.btnModemInfo = new CAB.UI.Controls.CABButton();
-            this.rbtTCP = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.errpPortMapping)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -79,38 +78,39 @@ namespace CAB.UI
             // 
             this.groupBox2.Controls.Add(this.rbtRemote);
             this.groupBox2.Controls.Add(this.rdDirect);
+            this.groupBox2.Font = new System.Drawing.Font("Segoe UI Semibold", 10.5F);
+            this.groupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(60)))), ((int)(((byte)(110)))));
             this.groupBox2.Location = new System.Drawing.Point(12, 12);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(420, 55);
             this.groupBox2.TabIndex = 50;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "🔌  Connection Mode";
-            this.groupBox2.Font = new System.Drawing.Font("Segoe UI Semibold", 10.5F);
-            this.groupBox2.ForeColor = System.Drawing.Color.FromArgb(30, 60, 110);
             // 
             // rbtRemote
             // 
             this.rbtRemote.AutoSize = true;
+            this.rbtRemote.Font = new System.Drawing.Font("Segoe UI", 9.5F);
             this.rbtRemote.Location = new System.Drawing.Point(220, 22);
             this.rbtRemote.Name = "rbtRemote";
-            this.rbtRemote.Size = new System.Drawing.Size(150, 21);
+            this.rbtRemote.Size = new System.Drawing.Size(202, 29);
             this.rbtRemote.TabIndex = 49;
             this.rbtRemote.Text = "Remote Connection";
-            this.rbtRemote.Font = new System.Drawing.Font("Segoe UI", 9.5F);
             this.rbtRemote.UseVisualStyleBackColor = true;
+            this.rbtRemote.Visible = false;
             this.rbtRemote.CheckedChanged += new System.EventHandler(this.rbtRemote_CheckedChanged);
             // 
             // rdDirect
             // 
             this.rdDirect.AutoSize = true;
             this.rdDirect.Checked = true;
+            this.rdDirect.Font = new System.Drawing.Font("Segoe UI", 9.5F);
             this.rdDirect.Location = new System.Drawing.Point(40, 22);
             this.rdDirect.Name = "rdDirect";
-            this.rdDirect.Size = new System.Drawing.Size(140, 21);
+            this.rdDirect.Size = new System.Drawing.Size(189, 29);
             this.rdDirect.TabIndex = 48;
             this.rdDirect.TabStop = true;
             this.rdDirect.Text = "Direct Connection";
-            this.rdDirect.Font = new System.Drawing.Font("Segoe UI", 9.5F);
             this.rdDirect.UseVisualStyleBackColor = true;
             // 
             // groupBox1
@@ -123,13 +123,14 @@ namespace CAB.UI
             this.groupBox1.Controls.Add(this.COMPortSet_lblBaudRate);
             this.groupBox1.Controls.Add(this.cboPort);
             this.groupBox1.Controls.Add(this.COMPortSet_lblCOMPort);
+            this.groupBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 10.5F);
+            this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(60)))), ((int)(((byte)(110)))));
             this.groupBox1.Location = new System.Drawing.Point(15, 85);
+            this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(275, 320);
             this.groupBox1.TabIndex = 53;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "⚙️  Port Configuration";
-            this.groupBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 10.5F);
-            this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(30, 60, 110);
             // 
             // panelRemote
             // 
@@ -148,7 +149,7 @@ namespace CAB.UI
             this.rbtTCP.AutoSize = true;
             this.rbtTCP.Location = new System.Drawing.Point(139, 11);
             this.rbtTCP.Name = "rbtTCP";
-            this.rbtTCP.Size = new System.Drawing.Size(61, 17);
+            this.rbtTCP.Size = new System.Drawing.Size(101, 34);
             this.rbtTCP.TabIndex = 55;
             this.rbtTCP.Text = "TCP/IP";
             this.rbtTCP.UseVisualStyleBackColor = true;
@@ -159,7 +160,7 @@ namespace CAB.UI
             this.rbtGPRS.AutoSize = true;
             this.rbtGPRS.Location = new System.Drawing.Point(207, 11);
             this.rbtGPRS.Name = "rbtGPRS";
-            this.rbtGPRS.Size = new System.Drawing.Size(55, 17);
+            this.rbtGPRS.Size = new System.Drawing.Size(89, 34);
             this.rbtGPRS.TabIndex = 54;
             this.rbtGPRS.Text = "GPRS";
             this.rbtGPRS.UseVisualStyleBackColor = true;
@@ -170,7 +171,7 @@ namespace CAB.UI
             this.rbtPSTN.AutoSize = true;
             this.rbtPSTN.Location = new System.Drawing.Point(70, 11);
             this.rbtPSTN.Name = "rbtPSTN";
-            this.rbtPSTN.Size = new System.Drawing.Size(54, 17);
+            this.rbtPSTN.Size = new System.Drawing.Size(89, 34);
             this.rbtPSTN.TabIndex = 53;
             this.rbtPSTN.Text = "PSTN";
             this.rbtPSTN.UseVisualStyleBackColor = true;
@@ -182,7 +183,7 @@ namespace CAB.UI
             this.rbtGSM.Checked = true;
             this.rbtGSM.Location = new System.Drawing.Point(11, 11);
             this.rbtGSM.Name = "rbtGSM";
-            this.rbtGSM.Size = new System.Drawing.Size(49, 17);
+            this.rbtGSM.Size = new System.Drawing.Size(83, 34);
             this.rbtGSM.TabIndex = 52;
             this.rbtGSM.TabStop = true;
             this.rbtGSM.Text = "GSM";
@@ -204,10 +205,11 @@ namespace CAB.UI
             this.rbtManual.AutoSize = true;
             this.rbtManual.Location = new System.Drawing.Point(138, 11);
             this.rbtManual.Name = "rbtManual";
-            this.rbtManual.Size = new System.Drawing.Size(60, 17);
+            this.rbtManual.Size = new System.Drawing.Size(108, 34);
             this.rbtManual.TabIndex = 53;
             this.rbtManual.Text = "Manual";
             this.rbtManual.UseVisualStyleBackColor = true;
+            this.rbtManual.Visible = false;
             // 
             // rbtAuto
             // 
@@ -215,78 +217,23 @@ namespace CAB.UI
             this.rbtAuto.Checked = true;
             this.rbtAuto.Location = new System.Drawing.Point(20, 11);
             this.rbtAuto.Name = "rbtAuto";
-            this.rbtAuto.Size = new System.Drawing.Size(47, 17);
+            this.rbtAuto.Size = new System.Drawing.Size(85, 34);
             this.rbtAuto.TabIndex = 52;
             this.rbtAuto.TabStop = true;
             this.rbtAuto.Text = "Auto";
             this.rbtAuto.UseVisualStyleBackColor = true;
             this.rbtAuto.CheckedChanged += new System.EventHandler(this.rbtAuto_CheckedChanged);
             // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.chk96IEC);
-            this.groupBox3.Controls.Add(this.chk300IEC);
-            this.groupBox3.Controls.Add(this.chk96DLMS);
-            this.groupBox3.Location = new System.Drawing.Point(300, 85);
-            this.groupBox3.Size = new System.Drawing.Size(260, 320);
-            this.groupBox3.TabIndex = 52;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "📋  Protocol Profile";
-            this.groupBox3.Font = new System.Drawing.Font("Segoe UI Semibold", 10.5F);
-            this.groupBox3.ForeColor = System.Drawing.Color.FromArgb(30, 60, 110);
-            // 
-            // chk96IEC
-            // 
-            this.chk96IEC.AutoSize = true;
-            this.chk96IEC.Enabled = false;
-            this.chk96IEC.Location = new System.Drawing.Point(20, 75);
-            this.chk96IEC.Name = "chk96IEC";
-            this.chk96IEC.Size = new System.Drawing.Size(210, 21);
-            this.chk96IEC.TabIndex = 56;
-            this.chk96IEC.Text = "IEC Profile (9600, 8, N, 1)";
-            this.chk96IEC.Font = new System.Drawing.Font("Segoe UI", 9.5F);
-            this.chk96IEC.UseVisualStyleBackColor = true;
-            this.chk96IEC.CheckedChanged += new System.EventHandler(this.chk96IEC_CheckedChanged);
-            this.chk96IEC.CheckedChanged += new System.EventHandler(this.chk96IEC_CheckedChanged);
-            // 
-            // chk300IEC
-            // 
-            this.chk300IEC.AutoSize = true;
-            this.chk300IEC.Enabled = false;
-            this.chk300IEC.Location = new System.Drawing.Point(20, 50);
-            this.chk300IEC.Name = "chk300IEC";
-            this.chk300IEC.Size = new System.Drawing.Size(210, 21);
-            this.chk300IEC.TabIndex = 55;
-            this.chk300IEC.Text = "IEC Profile (300, 7, E, 1)";
-            this.chk300IEC.Font = new System.Drawing.Font("Segoe UI", 9.5F);
-            this.chk300IEC.UseVisualStyleBackColor = true;
-            this.chk300IEC.CheckedChanged += new System.EventHandler(this.chk300IEC_CheckedChanged);
-            this.chk300IEC.CheckedChanged += new System.EventHandler(this.chk300IEC_CheckedChanged);
-            // 
-            // chk96DLMS
-            // 
-            this.chk96DLMS.AutoSize = true;
-            this.chk96DLMS.Enabled = false;
-            this.chk96DLMS.Location = new System.Drawing.Point(20, 25);
-            this.chk96DLMS.Name = "chk96DLMS";
-            this.chk96DLMS.Size = new System.Drawing.Size(210, 21);
-            this.chk96DLMS.TabIndex = 54;
-            this.chk96DLMS.Text = "DLMS Profile (9600, 8, N, 1)";
-            this.chk96DLMS.Font = new System.Drawing.Font("Segoe UI", 9.5F);
-            this.chk96DLMS.UseVisualStyleBackColor = true;
-            this.chk96DLMS.CheckedChanged += new System.EventHandler(this.chk96DLMS_CheckedChanged);
-            this.chk96DLMS.CheckedChanged += new System.EventHandler(this.chk96DLMS_CheckedChanged);
-            // 
             // lblInitialBaudRate
             // 
             this.lblInitialBaudRate.AutoSize = true;
+            this.lblInitialBaudRate.Font = new System.Drawing.Font("Segoe UI", 9.5F);
+            this.lblInitialBaudRate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(80)))));
             this.lblInitialBaudRate.Location = new System.Drawing.Point(25, 104);
             this.lblInitialBaudRate.Name = "lblInitialBaudRate";
-            this.lblInitialBaudRate.Size = new System.Drawing.Size(120, 20);
+            this.lblInitialBaudRate.Size = new System.Drawing.Size(153, 25);
             this.lblInitialBaudRate.TabIndex = 13;
             this.lblInitialBaudRate.Text = "Initial Baud Rate:";
-            this.lblInitialBaudRate.Font = new System.Drawing.Font("Segoe UI", 9.5F);
-            this.lblInitialBaudRate.ForeColor = System.Drawing.Color.FromArgb(60, 60, 80);
             this.lblInitialBaudRate.TranslationKey = null;
             // 
             // cboInitialbaudRate
@@ -299,7 +246,7 @@ namespace CAB.UI
             "34800"});
             this.cboInitialbaudRate.Location = new System.Drawing.Point(146, 101);
             this.cboInitialbaudRate.Name = "cboInitialbaudRate";
-            this.cboInitialbaudRate.Size = new System.Drawing.Size(121, 21);
+            this.cboInitialbaudRate.Size = new System.Drawing.Size(121, 38);
             this.cboInitialbaudRate.TabIndex = 12;
             this.cboInitialbaudRate.SelectedIndexChanged += new System.EventHandler(this.cboInitialbaudRate_SelectedIndexChanged);
             // 
@@ -314,20 +261,20 @@ namespace CAB.UI
             "38400"});
             this.cboBaudRate.Location = new System.Drawing.Point(146, 62);
             this.cboBaudRate.Name = "cboBaudRate";
-            this.cboBaudRate.Size = new System.Drawing.Size(121, 21);
+            this.cboBaudRate.Size = new System.Drawing.Size(121, 38);
             this.cboBaudRate.TabIndex = 3;
             this.cboBaudRate.SelectedIndexChanged += new System.EventHandler(this.cboBaudRate_SelectedIndexChanged);
             // 
             // COMPortSet_lblBaudRate
             // 
             this.COMPortSet_lblBaudRate.AutoSize = true;
+            this.COMPortSet_lblBaudRate.Font = new System.Drawing.Font("Segoe UI", 9.5F);
+            this.COMPortSet_lblBaudRate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(80)))));
             this.COMPortSet_lblBaudRate.Location = new System.Drawing.Point(25, 65);
             this.COMPortSet_lblBaudRate.Name = "COMPortSet_lblBaudRate";
-            this.COMPortSet_lblBaudRate.Size = new System.Drawing.Size(80, 20);
+            this.COMPortSet_lblBaudRate.Size = new System.Drawing.Size(101, 25);
             this.COMPortSet_lblBaudRate.TabIndex = 2;
             this.COMPortSet_lblBaudRate.Text = "Baud Rate:";
-            this.COMPortSet_lblBaudRate.Font = new System.Drawing.Font("Segoe UI", 9.5F);
-            this.COMPortSet_lblBaudRate.ForeColor = System.Drawing.Color.FromArgb(60, 60, 80);
             this.COMPortSet_lblBaudRate.TranslationKey = null;
             // 
             // cboPort
@@ -336,110 +283,151 @@ namespace CAB.UI
             this.cboPort.FormattingEnabled = true;
             this.cboPort.Location = new System.Drawing.Point(146, 25);
             this.cboPort.Name = "cboPort";
-            this.cboPort.Size = new System.Drawing.Size(121, 21);
+            this.cboPort.Size = new System.Drawing.Size(121, 38);
             this.cboPort.TabIndex = 1;
             // 
             // COMPortSet_lblCOMPort
             // 
             this.COMPortSet_lblCOMPort.AutoSize = true;
+            this.COMPortSet_lblCOMPort.Font = new System.Drawing.Font("Segoe UI", 9.5F);
+            this.COMPortSet_lblCOMPort.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(80)))));
             this.COMPortSet_lblCOMPort.Location = new System.Drawing.Point(25, 28);
             this.COMPortSet_lblCOMPort.Name = "COMPortSet_lblCOMPort";
-            this.COMPortSet_lblCOMPort.Size = new System.Drawing.Size(80, 20);
+            this.COMPortSet_lblCOMPort.Size = new System.Drawing.Size(97, 25);
             this.COMPortSet_lblCOMPort.TabIndex = 0;
             this.COMPortSet_lblCOMPort.Text = "COM Port:";
-            this.COMPortSet_lblCOMPort.Font = new System.Drawing.Font("Segoe UI", 9.5F);
-            this.COMPortSet_lblCOMPort.ForeColor = System.Drawing.Color.FromArgb(60, 60, 80);
             this.COMPortSet_lblCOMPort.TranslationKey = null;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.chk96IEC);
+            this.groupBox3.Controls.Add(this.chk300IEC);
+            this.groupBox3.Controls.Add(this.chk96DLMS);
+            this.groupBox3.Font = new System.Drawing.Font("Segoe UI Semibold", 10.5F);
+            this.groupBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(60)))), ((int)(((byte)(110)))));
+            this.groupBox3.Location = new System.Drawing.Point(300, 85);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(260, 320);
+            this.groupBox3.TabIndex = 52;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "📋  Protocol Profile";
+            this.groupBox3.Visible = false;
+            // 
+            // chk96IEC
+            // 
+            this.chk96IEC.AutoSize = true;
+            this.chk96IEC.Enabled = false;
+            this.chk96IEC.Font = new System.Drawing.Font("Segoe UI", 9.5F);
+            this.chk96IEC.Location = new System.Drawing.Point(20, 75);
+            this.chk96IEC.Name = "chk96IEC";
+            this.chk96IEC.Size = new System.Drawing.Size(243, 29);
+            this.chk96IEC.TabIndex = 56;
+            this.chk96IEC.Text = "IEC Profile (9600, 8, N, 1)";
+            this.chk96IEC.UseVisualStyleBackColor = true;
+            this.chk96IEC.CheckedChanged += new System.EventHandler(this.chk96IEC_CheckedChanged);
+            // 
+            // chk300IEC
+            // 
+            this.chk300IEC.AutoSize = true;
+            this.chk300IEC.Enabled = false;
+            this.chk300IEC.Font = new System.Drawing.Font("Segoe UI", 9.5F);
+            this.chk300IEC.Location = new System.Drawing.Point(20, 50);
+            this.chk300IEC.Name = "chk300IEC";
+            this.chk300IEC.Size = new System.Drawing.Size(229, 29);
+            this.chk300IEC.TabIndex = 55;
+            this.chk300IEC.Text = "IEC Profile (300, 7, E, 1)";
+            this.chk300IEC.UseVisualStyleBackColor = true;
+            this.chk300IEC.CheckedChanged += new System.EventHandler(this.chk300IEC_CheckedChanged);
+            // 
+            // chk96DLMS
+            // 
+            this.chk96DLMS.AutoSize = true;
+            this.chk96DLMS.Enabled = false;
+            this.chk96DLMS.Font = new System.Drawing.Font("Segoe UI", 9.5F);
+            this.chk96DLMS.Location = new System.Drawing.Point(20, 25);
+            this.chk96DLMS.Name = "chk96DLMS";
+            this.chk96DLMS.Size = new System.Drawing.Size(265, 29);
+            this.chk96DLMS.TabIndex = 54;
+            this.chk96DLMS.Text = "DLMS Profile (9600, 8, N, 1)";
+            this.chk96DLMS.UseVisualStyleBackColor = true;
+            this.chk96DLMS.CheckedChanged += new System.EventHandler(this.chk96DLMS_CheckedChanged);
             // 
             // lngbCancel
             // 
-            this.lngbCancel.Location = new System.Drawing.Point(345, 420);
+            this.lngbCancel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(117)))), ((int)(((byte)(125)))));
+            this.lngbCancel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lngbCancel.FlatAppearance.BorderSize = 0;
+            this.lngbCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lngbCancel.Font = new System.Drawing.Font("Segoe UI", 9.5F);
+            this.lngbCancel.ForeColor = System.Drawing.Color.White;
+            this.lngbCancel.Location = new System.Drawing.Point(140, 420);
             this.lngbCancel.Name = "lngbCancel";
             this.lngbCancel.Size = new System.Drawing.Size(100, 32);
             this.lngbCancel.TabIndex = 55;
             this.lngbCancel.Text = "✖️  Cancel";
             this.lngbCancel.TranslationKey = null;
             this.lngbCancel.UseVisualStyleBackColor = false;
-            this.lngbCancel.BackColor = System.Drawing.Color.FromArgb(108, 117, 125);
-            this.lngbCancel.ForeColor = System.Drawing.Color.White;
-            this.lngbCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lngbCancel.FlatAppearance.BorderSize = 0;
-            this.lngbCancel.Font = new System.Drawing.Font("Segoe UI", 9.5F);
-            this.lngbCancel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lngbCancel.Click += new System.EventHandler(this.lngbCancel_Click_1);
             this.lngbCancel.Click += new System.EventHandler(this.lngbCancel_Click_1);
             // 
             // lngbSave
             // 
-            this.lngbSave.Location = new System.Drawing.Point(230, 420);
+            this.lngbSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(167)))), ((int)(((byte)(69)))));
+            this.lngbSave.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lngbSave.FlatAppearance.BorderSize = 0;
+            this.lngbSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lngbSave.Font = new System.Drawing.Font("Segoe UI Semibold", 9.5F);
+            this.lngbSave.ForeColor = System.Drawing.Color.White;
+            this.lngbSave.Location = new System.Drawing.Point(24, 420);
             this.lngbSave.Name = "lngbSave";
             this.lngbSave.Size = new System.Drawing.Size(110, 32);
             this.lngbSave.TabIndex = 54;
             this.lngbSave.Text = "💾  Save Settings";
             this.lngbSave.TranslationKey = null;
             this.lngbSave.UseVisualStyleBackColor = false;
-            this.lngbSave.BackColor = System.Drawing.Color.FromArgb(40, 167, 69);
-            this.lngbSave.ForeColor = System.Drawing.Color.White;
-            this.lngbSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lngbSave.FlatAppearance.BorderSize = 0;
-            this.lngbSave.Font = new System.Drawing.Font("Segoe UI Semibold", 9.5F);
-            this.lngbSave.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lngbSave.Click += new System.EventHandler(this.lngbSave_Click);
             this.lngbSave.Click += new System.EventHandler(this.lngbSave_Click);
             // 
             // btnModemConfig
             // 
-            this.btnModemConfig.Location = new System.Drawing.Point(14, 420);
+            this.btnModemConfig.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(120)))), ((int)(((byte)(215)))));
+            this.btnModemConfig.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnModemConfig.FlatAppearance.BorderSize = 0;
+            this.btnModemConfig.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnModemConfig.Font = new System.Drawing.Font("Segoe UI Semibold", 9F);
+            this.btnModemConfig.ForeColor = System.Drawing.Color.White;
+            this.btnModemConfig.Location = new System.Drawing.Point(347, 420);
             this.btnModemConfig.Name = "btnModemConfig";
             this.btnModemConfig.Size = new System.Drawing.Size(110, 32);
             this.btnModemConfig.TabIndex = 56;
             this.btnModemConfig.Text = "🛠️  Modem Settings";
             this.btnModemConfig.TranslationKey = null;
             this.btnModemConfig.UseVisualStyleBackColor = false;
-            this.btnModemConfig.BackColor = System.Drawing.Color.FromArgb(0, 120, 215);
-            this.btnModemConfig.ForeColor = System.Drawing.Color.White;
-            this.btnModemConfig.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnModemConfig.FlatAppearance.BorderSize = 0;
-            this.btnModemConfig.Font = new System.Drawing.Font("Segoe UI Semibold", 9F);
-            this.btnModemConfig.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnModemConfig.Click += new System.EventHandler(this.btnModemConfig_Click);
+            this.btnModemConfig.Visible = false;
             this.btnModemConfig.Click += new System.EventHandler(this.btnModemConfig_Click);
             // 
             // btnModemInfo
             // 
-            this.btnModemInfo.Location = new System.Drawing.Point(130, 420);
+            this.btnModemInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(120)))), ((int)(((byte)(215)))));
+            this.btnModemInfo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnModemInfo.FlatAppearance.BorderSize = 0;
+            this.btnModemInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnModemInfo.Font = new System.Drawing.Font("Segoe UI Semibold", 9F);
+            this.btnModemInfo.ForeColor = System.Drawing.Color.White;
+            this.btnModemInfo.Location = new System.Drawing.Point(246, 420);
             this.btnModemInfo.Name = "btnModemInfo";
             this.btnModemInfo.Size = new System.Drawing.Size(95, 32);
             this.btnModemInfo.TabIndex = 57;
             this.btnModemInfo.Text = "ℹ️  Modem Info";
             this.btnModemInfo.TranslationKey = null;
             this.btnModemInfo.UseVisualStyleBackColor = false;
-            this.btnModemInfo.BackColor = System.Drawing.Color.FromArgb(0, 120, 215);
-            this.btnModemInfo.ForeColor = System.Drawing.Color.White;
-            this.btnModemInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnModemInfo.FlatAppearance.BorderSize = 0;
-            this.btnModemInfo.Font = new System.Drawing.Font("Segoe UI Semibold", 9F);
-            this.btnModemInfo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnModemInfo.Visible = false;
             this.btnModemInfo.Click += new System.EventHandler(this.btnModemInfo_Click);
-            this.btnModemInfo.Click += new System.EventHandler(this.btnModemInfo_Click);
-            // 
-            // rbtTCP
-            // 
-            this.rbtTCP.AutoSize = true;
-            this.rbtTCP.Location = new System.Drawing.Point(139, 11);
-            this.rbtTCP.Name = "rbtTCP";
-            this.rbtTCP.Size = new System.Drawing.Size(61, 17);
-            this.rbtTCP.TabIndex = 55;
-            this.rbtTCP.Text = "TCP/IP";
-            this.rbtTCP.UseVisualStyleBackColor = true;
             // 
             // PortSettingFormNew
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
-            this.BackColor = System.Drawing.Color.FromArgb(235, 240, 248);
-            this.Font = new System.Drawing.Font("Segoe UI", 9.5F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(240)))), ((int)(((byte)(248)))));
             this.ClientSize = new System.Drawing.Size(580, 480);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.btnModemInfo);
@@ -448,12 +436,14 @@ namespace CAB.UI
             this.Controls.Add(this.lngbSave);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
+            this.Font = new System.Drawing.Font("Segoe UI", 9.5F);
+            this.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.Name = "PortSettingFormNew";
             this.StatusMessage = "";
             this.Text = "Port Settings";
-            this.Load += new System.EventHandler(this.PortSettingFormNew_Load);
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.PortSettingForm_FormClosing);
             this.Activated += new System.EventHandler(this.PortSettingForm_Activated);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.PortSettingForm_FormClosing);
+            this.Load += new System.EventHandler(this.PortSettingFormNew_Load);
             ((System.ComponentModel.ISupportInitialize)(this.errpPortMapping)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.groupBox2.ResumeLayout(false);

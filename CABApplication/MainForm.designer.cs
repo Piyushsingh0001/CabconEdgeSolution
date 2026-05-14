@@ -46,17 +46,6 @@ namespace CAB.UI
             this.manageCircleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.manageDivisionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.GroupDefinitionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.scheduleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cMRISchedulerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.configurationFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.dLMSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.iECToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cMRISchedulingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.securityFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.meterDataSchedulerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.groupWiseGSMSchedulingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.readingGSMTaskManagerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dataAcquisitionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.readToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.meterReadoutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -90,6 +79,17 @@ namespace CAB.UI
             this.fTPSeetingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.otherSettingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.meterPasswordToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.scheduleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cMRISchedulerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.configurationFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dLMSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.iECToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cMRISchedulingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.securityFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.meterDataSchedulerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.groupWiseGSMSchedulingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.readingGSMTaskManagerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.configurationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.meterTypeConfigurationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.meterIDConfoguartionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -212,14 +212,14 @@ namespace CAB.UI
             // 
             this.menuStripMainForm.BackColor = System.Drawing.Color.White;
             this.menuStripMainForm.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menuStripMainForm.ForeColor = System.Drawing.Color.FromArgb(32, 32, 32);
+            this.menuStripMainForm.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.menuStripMainForm.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStripMainForm.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStripMainForm.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.userGroupToolStripMenuItem,
             this.definitionToolStripMenuItem,
-            this.scheduleToolStripMenuItem,
             this.dataAcquisitionToolStripMenuItem,
+            this.scheduleToolStripMenuItem,
             this.configurationToolStripMenuItem,
             this.reportsToolStripMenuItem,
             this.dataArchiveToolStripMenuItem,
@@ -229,7 +229,7 @@ namespace CAB.UI
             this.exitToolStripMenuItem});
             this.menuStripMainForm.Location = new System.Drawing.Point(0, 0);
             this.menuStripMainForm.Name = "menuStripMainForm";
-            this.menuStripMainForm.Size = new System.Drawing.Size(1964, 33);
+            this.menuStripMainForm.Size = new System.Drawing.Size(1924, 36);
             this.menuStripMainForm.TabIndex = 0;
             this.menuStripMainForm.Text = "MF_menuStrip";
             // 
@@ -242,41 +242,42 @@ namespace CAB.UI
             this.exceptionLogDetailsToolStripMenuItem,
             this.activityLogDetailsToolStripMenuItem});
             this.userGroupToolStripMenuItem.Name = "userGroupToolStripMenuItem";
-            this.userGroupToolStripMenuItem.Size = new System.Drawing.Size(118, 29);
-            this.userGroupToolStripMenuItem.Text = "&User Group";
+            this.userGroupToolStripMenuItem.Size = new System.Drawing.Size(158, 32);
+            this.userGroupToolStripMenuItem.Text = "&Administration";
             // 
             // userManagementToolStripMenuItem
             // 
             this.userManagementToolStripMenuItem.Name = "userManagementToolStripMenuItem";
-            this.userManagementToolStripMenuItem.Size = new System.Drawing.Size(297, 34);
+            this.userManagementToolStripMenuItem.Size = new System.Drawing.Size(317, 36);
             this.userManagementToolStripMenuItem.Text = "&User Management";
             this.userManagementToolStripMenuItem.Click += new System.EventHandler(this.userManagementToolStripMenuItem_Click);
             // 
             // changePasswordToolStripMenuItem
             // 
             this.changePasswordToolStripMenuItem.Name = "changePasswordToolStripMenuItem";
-            this.changePasswordToolStripMenuItem.Size = new System.Drawing.Size(297, 34);
+            this.changePasswordToolStripMenuItem.Size = new System.Drawing.Size(317, 36);
             this.changePasswordToolStripMenuItem.Text = "&Change Password";
             this.changePasswordToolStripMenuItem.Click += new System.EventHandler(this.changePasswordToolStripMenuItem_Click);
             // 
             // applicationLogDetailsToolStripMenuItem
             // 
             this.applicationLogDetailsToolStripMenuItem.Name = "applicationLogDetailsToolStripMenuItem";
-            this.applicationLogDetailsToolStripMenuItem.Size = new System.Drawing.Size(297, 34);
+            this.applicationLogDetailsToolStripMenuItem.Size = new System.Drawing.Size(317, 36);
             this.applicationLogDetailsToolStripMenuItem.Text = "&Application Log Details";
+            this.applicationLogDetailsToolStripMenuItem.Visible = false;
             this.applicationLogDetailsToolStripMenuItem.Click += new System.EventHandler(this.applicationLogDetailsToolStripMenuItem_Click);
             // 
             // exceptionLogDetailsToolStripMenuItem
             // 
             this.exceptionLogDetailsToolStripMenuItem.Name = "exceptionLogDetailsToolStripMenuItem";
-            this.exceptionLogDetailsToolStripMenuItem.Size = new System.Drawing.Size(297, 34);
+            this.exceptionLogDetailsToolStripMenuItem.Size = new System.Drawing.Size(317, 36);
             this.exceptionLogDetailsToolStripMenuItem.Text = "&Exception Log Details";
             this.exceptionLogDetailsToolStripMenuItem.Click += new System.EventHandler(this.exceptionLogDetailsToolStripMenuItem_Click);
             // 
             // activityLogDetailsToolStripMenuItem
             // 
             this.activityLogDetailsToolStripMenuItem.Name = "activityLogDetailsToolStripMenuItem";
-            this.activityLogDetailsToolStripMenuItem.Size = new System.Drawing.Size(297, 34);
+            this.activityLogDetailsToolStripMenuItem.Size = new System.Drawing.Size(317, 36);
             this.activityLogDetailsToolStripMenuItem.Text = "Activity Log Details";
             this.activityLogDetailsToolStripMenuItem.Click += new System.EventHandler(this.activityLogDetailsToolStripMenuItem_Click);
             // 
@@ -288,20 +289,21 @@ namespace CAB.UI
             this.AreaDefinitionToolStripMenuItem,
             this.GroupDefinitionToolStripMenuItem});
             this.definitionToolStripMenuItem.Name = "definitionToolStripMenuItem";
-            this.definitionToolStripMenuItem.Size = new System.Drawing.Size(105, 29);
+            this.definitionToolStripMenuItem.Size = new System.Drawing.Size(114, 32);
             this.definitionToolStripMenuItem.Text = "&Definition";
+            this.definitionToolStripMenuItem.Visible = false;
             // 
             // ConsMeterDefinitionToolStripMenuItem
             // 
             this.ConsMeterDefinitionToolStripMenuItem.Name = "ConsMeterDefinitionToolStripMenuItem";
-            this.ConsMeterDefinitionToolStripMenuItem.Size = new System.Drawing.Size(328, 34);
+            this.ConsMeterDefinitionToolStripMenuItem.Size = new System.Drawing.Size(350, 36);
             this.ConsMeterDefinitionToolStripMenuItem.Text = "&Consumer Meter Definition";
             this.ConsMeterDefinitionToolStripMenuItem.Click += new System.EventHandler(this.ConsMeterDefinitionToolStripMenuItem_Click);
             // 
             // CMRIDefinitionToolStripMenuItem
             // 
             this.CMRIDefinitionToolStripMenuItem.Name = "CMRIDefinitionToolStripMenuItem";
-            this.CMRIDefinitionToolStripMenuItem.Size = new System.Drawing.Size(328, 34);
+            this.CMRIDefinitionToolStripMenuItem.Size = new System.Drawing.Size(350, 36);
             this.CMRIDefinitionToolStripMenuItem.Text = "C&MRI Definition";
             this.CMRIDefinitionToolStripMenuItem.Click += new System.EventHandler(this.CMRIDefinitionToolStripMenuItem_Click);
             // 
@@ -313,133 +315,43 @@ namespace CAB.UI
             this.manageCircleToolStripMenuItem,
             this.manageDivisionToolStripMenuItem});
             this.AreaDefinitionToolStripMenuItem.Name = "AreaDefinitionToolStripMenuItem";
-            this.AreaDefinitionToolStripMenuItem.Size = new System.Drawing.Size(328, 34);
+            this.AreaDefinitionToolStripMenuItem.Size = new System.Drawing.Size(350, 36);
             this.AreaDefinitionToolStripMenuItem.Text = "Manage Area";
             // 
             // areaDefinitionToolStripMenuItem1
             // 
             this.areaDefinitionToolStripMenuItem1.Name = "areaDefinitionToolStripMenuItem1";
-            this.areaDefinitionToolStripMenuItem1.Size = new System.Drawing.Size(246, 34);
+            this.areaDefinitionToolStripMenuItem1.Size = new System.Drawing.Size(260, 36);
             this.areaDefinitionToolStripMenuItem1.Text = "Area Definition";
             this.areaDefinitionToolStripMenuItem1.Click += new System.EventHandler(this.areaDefinitionToolStripMenuItem1_Click);
             // 
             // manageRegionToolStripMenuItem
             // 
             this.manageRegionToolStripMenuItem.Name = "manageRegionToolStripMenuItem";
-            this.manageRegionToolStripMenuItem.Size = new System.Drawing.Size(246, 34);
+            this.manageRegionToolStripMenuItem.Size = new System.Drawing.Size(260, 36);
             this.manageRegionToolStripMenuItem.Text = "Manage Region";
             this.manageRegionToolStripMenuItem.Click += new System.EventHandler(this.manageRegionToolStripMenuItem_Click);
             // 
             // manageCircleToolStripMenuItem
             // 
             this.manageCircleToolStripMenuItem.Name = "manageCircleToolStripMenuItem";
-            this.manageCircleToolStripMenuItem.Size = new System.Drawing.Size(246, 34);
+            this.manageCircleToolStripMenuItem.Size = new System.Drawing.Size(260, 36);
             this.manageCircleToolStripMenuItem.Text = "Manage Circle";
             this.manageCircleToolStripMenuItem.Click += new System.EventHandler(this.manageCircleToolStripMenuItem_Click);
             // 
             // manageDivisionToolStripMenuItem
             // 
             this.manageDivisionToolStripMenuItem.Name = "manageDivisionToolStripMenuItem";
-            this.manageDivisionToolStripMenuItem.Size = new System.Drawing.Size(246, 34);
+            this.manageDivisionToolStripMenuItem.Size = new System.Drawing.Size(260, 36);
             this.manageDivisionToolStripMenuItem.Text = "Manage Division";
             this.manageDivisionToolStripMenuItem.Click += new System.EventHandler(this.manageDivisionToolStripMenuItem_Click);
             // 
             // GroupDefinitionToolStripMenuItem
             // 
             this.GroupDefinitionToolStripMenuItem.Name = "GroupDefinitionToolStripMenuItem";
-            this.GroupDefinitionToolStripMenuItem.Size = new System.Drawing.Size(328, 34);
+            this.GroupDefinitionToolStripMenuItem.Size = new System.Drawing.Size(350, 36);
             this.GroupDefinitionToolStripMenuItem.Text = "&Group Definition";
             this.GroupDefinitionToolStripMenuItem.Click += new System.EventHandler(this.GroupDefinitionToolStripMenuItem_Click_1);
-            // 
-            // scheduleToolStripMenuItem
-            // 
-            this.scheduleToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.cMRISchedulerToolStripMenuItem,
-            this.meterDataSchedulerToolStripMenuItem});
-            this.scheduleToolStripMenuItem.Name = "scheduleToolStripMenuItem";
-            this.scheduleToolStripMenuItem.Size = new System.Drawing.Size(99, 29);
-            this.scheduleToolStripMenuItem.Text = "Schedule";
-            // 
-            // cMRISchedulerToolStripMenuItem
-            // 
-            this.cMRISchedulerToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.configurationFileToolStripMenuItem,
-            this.cMRISchedulingToolStripMenuItem,
-            this.securityFileToolStripMenuItem});
-            this.cMRISchedulerToolStripMenuItem.Name = "cMRISchedulerToolStripMenuItem";
-            this.cMRISchedulerToolStripMenuItem.Size = new System.Drawing.Size(284, 34);
-            this.cMRISchedulerToolStripMenuItem.Text = "&CMRI Scheduler";
-            // 
-            // configurationFileToolStripMenuItem
-            // 
-            this.configurationFileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.dLMSToolStripMenuItem,
-            this.iECToolStripMenuItem});
-            this.configurationFileToolStripMenuItem.Name = "configurationFileToolStripMenuItem";
-            this.configurationFileToolStripMenuItem.Size = new System.Drawing.Size(254, 34);
-            this.configurationFileToolStripMenuItem.Text = "&Configuration File";
-            this.configurationFileToolStripMenuItem.Click += new System.EventHandler(this.configurationFileToolStripMenuItem_Click);
-            // 
-            // dLMSToolStripMenuItem
-            // 
-            this.dLMSToolStripMenuItem.Name = "dLMSToolStripMenuItem";
-            this.dLMSToolStripMenuItem.Size = new System.Drawing.Size(161, 34);
-            this.dLMSToolStripMenuItem.Text = "&DLMS";
-            this.dLMSToolStripMenuItem.Visible = false;
-            this.dLMSToolStripMenuItem.Click += new System.EventHandler(this.dLMSToolStripMenuItem_Click);
-            // 
-            // iECToolStripMenuItem
-            // 
-            this.iECToolStripMenuItem.Name = "iECToolStripMenuItem";
-            this.iECToolStripMenuItem.Size = new System.Drawing.Size(161, 34);
-            this.iECToolStripMenuItem.Text = "&IEC";
-            this.iECToolStripMenuItem.Visible = false;
-            this.iECToolStripMenuItem.Click += new System.EventHandler(this.iECToolStripMenuItem_Click);
-            // 
-            // cMRISchedulingToolStripMenuItem
-            // 
-            this.cMRISchedulingToolStripMenuItem.Name = "cMRISchedulingToolStripMenuItem";
-            this.cMRISchedulingToolStripMenuItem.Size = new System.Drawing.Size(254, 34);
-            this.cMRISchedulingToolStripMenuItem.Text = "&Schedule File";
-            this.cMRISchedulingToolStripMenuItem.Click += new System.EventHandler(this.cMRISchedulingToolStripMenuItem_Click);
-            // 
-            // securityFileToolStripMenuItem
-            // 
-            this.securityFileToolStripMenuItem.Name = "securityFileToolStripMenuItem";
-            this.securityFileToolStripMenuItem.Size = new System.Drawing.Size(254, 34);
-            this.securityFileToolStripMenuItem.Text = "Security File";
-            this.securityFileToolStripMenuItem.Click += new System.EventHandler(this.securityFileToolStripMenuItem_Click);
-            // 
-            // meterDataSchedulerToolStripMenuItem
-            // 
-            this.meterDataSchedulerToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem1,
-            this.groupWiseGSMSchedulingToolStripMenuItem,
-            this.readingGSMTaskManagerToolStripMenuItem});
-            this.meterDataSchedulerToolStripMenuItem.Name = "meterDataSchedulerToolStripMenuItem";
-            this.meterDataSchedulerToolStripMenuItem.Size = new System.Drawing.Size(284, 34);
-            this.meterDataSchedulerToolStripMenuItem.Text = "&Meter Data Scheduler";
-            // 
-            // toolStripMenuItem1
-            // 
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(239, 34);
-            this.toolStripMenuItem1.Text = "&Group Manager";
-            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
-            // 
-            // groupWiseGSMSchedulingToolStripMenuItem
-            // 
-            this.groupWiseGSMSchedulingToolStripMenuItem.Name = "groupWiseGSMSchedulingToolStripMenuItem";
-            this.groupWiseGSMSchedulingToolStripMenuItem.Size = new System.Drawing.Size(239, 34);
-            this.groupWiseGSMSchedulingToolStripMenuItem.Text = "&Task Scheduler";
-            this.groupWiseGSMSchedulingToolStripMenuItem.Click += new System.EventHandler(this.groupWiseGSMSchedulingToolStripMenuItem_Click);
-            // 
-            // readingGSMTaskManagerToolStripMenuItem
-            // 
-            this.readingGSMTaskManagerToolStripMenuItem.Name = "readingGSMTaskManagerToolStripMenuItem";
-            this.readingGSMTaskManagerToolStripMenuItem.Size = new System.Drawing.Size(239, 34);
-            this.readingGSMTaskManagerToolStripMenuItem.Text = "T&ask Manager";
-            this.readingGSMTaskManagerToolStripMenuItem.Click += new System.EventHandler(this.readingGSMTaskManagerToolStripMenuItem_Click);
             // 
             // dataAcquisitionToolStripMenuItem
             // 
@@ -455,8 +367,8 @@ namespace CAB.UI
             this.settingsToolStripMenuItem1});
             this.dataAcquisitionToolStripMenuItem.Enabled = false;
             this.dataAcquisitionToolStripMenuItem.Name = "dataAcquisitionToolStripMenuItem";
-            this.dataAcquisitionToolStripMenuItem.Size = new System.Drawing.Size(158, 29);
-            this.dataAcquisitionToolStripMenuItem.Text = "Data Ac&quisition";
+            this.dataAcquisitionToolStripMenuItem.Size = new System.Drawing.Size(160, 32);
+            this.dataAcquisitionToolStripMenuItem.Text = "Data Definition";
             // 
             // readToolStripMenuItem
             // 
@@ -466,35 +378,36 @@ namespace CAB.UI
             this.fTPToolStripMenuItem,
             this.irDAToolStripMenuItem});
             this.readToolStripMenuItem.Name = "readToolStripMenuItem";
-            this.readToolStripMenuItem.Size = new System.Drawing.Size(327, 34);
+            this.readToolStripMenuItem.Size = new System.Drawing.Size(349, 36);
             this.readToolStripMenuItem.Text = "&Readout";
             // 
             // meterReadoutToolStripMenuItem
             // 
             this.meterReadoutToolStripMenuItem.Name = "meterReadoutToolStripMenuItem";
-            this.meterReadoutToolStripMenuItem.Size = new System.Drawing.Size(160, 34);
+            this.meterReadoutToolStripMenuItem.Size = new System.Drawing.Size(227, 36);
             this.meterReadoutToolStripMenuItem.Text = "&Meter";
             this.meterReadoutToolStripMenuItem.Click += new System.EventHandler(this.meterReadoutToolStripMenuItem_Click);
             // 
             // mRICommunicationToolStripMenuItem
             // 
             this.mRICommunicationToolStripMenuItem.Name = "mRICommunicationToolStripMenuItem";
-            this.mRICommunicationToolStripMenuItem.Size = new System.Drawing.Size(160, 34);
+            this.mRICommunicationToolStripMenuItem.Size = new System.Drawing.Size(227, 36);
             this.mRICommunicationToolStripMenuItem.Text = "&CMRI";
             this.mRICommunicationToolStripMenuItem.Click += new System.EventHandler(this.mRICommunicationToolStripMenuItem_Click);
             // 
             // fTPToolStripMenuItem
             // 
             this.fTPToolStripMenuItem.Name = "fTPToolStripMenuItem";
-            this.fTPToolStripMenuItem.Size = new System.Drawing.Size(160, 34);
-            this.fTPToolStripMenuItem.Text = "&FTP";
+            this.fTPToolStripMenuItem.Size = new System.Drawing.Size(227, 36);
+            this.fTPToolStripMenuItem.Text = "&Android Port";
             this.fTPToolStripMenuItem.Click += new System.EventHandler(this.fTPToolStripMenuItem_Click);
             // 
             // irDAToolStripMenuItem
             // 
             this.irDAToolStripMenuItem.Name = "irDAToolStripMenuItem";
-            this.irDAToolStripMenuItem.Size = new System.Drawing.Size(160, 34);
+            this.irDAToolStripMenuItem.Size = new System.Drawing.Size(227, 36);
             this.irDAToolStripMenuItem.Text = "IrDA";
+            this.irDAToolStripMenuItem.Visible = false;
             this.irDAToolStripMenuItem.Click += new System.EventHandler(this.irDAToolStripMenuItem_Click);
             // 
             // dynamicReadoutToolStripMenuItem
@@ -506,41 +419,42 @@ namespace CAB.UI
             this.dynamicHighResolutionReadoutToolStripMenuItem,
             this.adhocReadoutToolStripMenuItem});
             this.dynamicReadoutToolStripMenuItem.Name = "dynamicReadoutToolStripMenuItem";
-            this.dynamicReadoutToolStripMenuItem.Size = new System.Drawing.Size(327, 34);
+            this.dynamicReadoutToolStripMenuItem.Size = new System.Drawing.Size(349, 36);
             this.dynamicReadoutToolStripMenuItem.Text = "&Dynamic Readout";
+            this.dynamicReadoutToolStripMenuItem.Visible = false;
             // 
             // dynamicPhasorReadoutToolStripMenuItem
             // 
             this.dynamicPhasorReadoutToolStripMenuItem.Name = "dynamicPhasorReadoutToolStripMenuItem";
-            this.dynamicPhasorReadoutToolStripMenuItem.Size = new System.Drawing.Size(385, 34);
+            this.dynamicPhasorReadoutToolStripMenuItem.Size = new System.Drawing.Size(412, 36);
             this.dynamicPhasorReadoutToolStripMenuItem.Text = "Dynamic Phasor Readout";
             this.dynamicPhasorReadoutToolStripMenuItem.Click += new System.EventHandler(this.dynamicPhasorReadoutToolStripMenuItem_Click);
             // 
             // meterAccuracyCheckToolStripMenuItem
             // 
             this.meterAccuracyCheckToolStripMenuItem.Name = "meterAccuracyCheckToolStripMenuItem";
-            this.meterAccuracyCheckToolStripMenuItem.Size = new System.Drawing.Size(385, 34);
+            this.meterAccuracyCheckToolStripMenuItem.Size = new System.Drawing.Size(412, 36);
             this.meterAccuracyCheckToolStripMenuItem.Text = "Meter Accuracy Check";
             this.meterAccuracyCheckToolStripMenuItem.Click += new System.EventHandler(this.meterAccuracyCheckToolStripMenuItem_Click);
             // 
             // snapReadToolStripMenuItem
             // 
             this.snapReadToolStripMenuItem.Name = "snapReadToolStripMenuItem";
-            this.snapReadToolStripMenuItem.Size = new System.Drawing.Size(385, 34);
+            this.snapReadToolStripMenuItem.Size = new System.Drawing.Size(412, 36);
             this.snapReadToolStripMenuItem.Text = "Dynamic Snap Read";
             this.snapReadToolStripMenuItem.Click += new System.EventHandler(this.snapReadToolStripMenuItem_Click);
             // 
             // dynamicHighResolutionReadoutToolStripMenuItem
             // 
             this.dynamicHighResolutionReadoutToolStripMenuItem.Name = "dynamicHighResolutionReadoutToolStripMenuItem";
-            this.dynamicHighResolutionReadoutToolStripMenuItem.Size = new System.Drawing.Size(385, 34);
+            this.dynamicHighResolutionReadoutToolStripMenuItem.Size = new System.Drawing.Size(412, 36);
             this.dynamicHighResolutionReadoutToolStripMenuItem.Text = "Dynamic High Resolution Readout";
             this.dynamicHighResolutionReadoutToolStripMenuItem.Click += new System.EventHandler(this.dynamicHighResolutionReadoutToolStripMenuItem_Click);
             // 
             // adhocReadoutToolStripMenuItem
             // 
             this.adhocReadoutToolStripMenuItem.Name = "adhocReadoutToolStripMenuItem";
-            this.adhocReadoutToolStripMenuItem.Size = new System.Drawing.Size(385, 34);
+            this.adhocReadoutToolStripMenuItem.Size = new System.Drawing.Size(412, 36);
             this.adhocReadoutToolStripMenuItem.Text = "Adhoc Readout";
             this.adhocReadoutToolStripMenuItem.Click += new System.EventHandler(this.adhocReadoutToolStripMenuItem_Click);
             // 
@@ -550,14 +464,14 @@ namespace CAB.UI
             this.ltMeterConfigurationToolStripMenuItem,
             this.wcmToolStripMenuItem});
             this.meterConfigurationsToolStripMenuItem.Name = "meterConfigurationsToolStripMenuItem";
-            this.meterConfigurationsToolStripMenuItem.Size = new System.Drawing.Size(327, 34);
+            this.meterConfigurationsToolStripMenuItem.Size = new System.Drawing.Size(349, 36);
             this.meterConfigurationsToolStripMenuItem.Text = "&Configurations";
             this.meterConfigurationsToolStripMenuItem.Click += new System.EventHandler(this.meterConfigurationsToolStripMenuItem_Click);
             // 
             // ltMeterConfigurationToolStripMenuItem
             // 
             this.ltMeterConfigurationToolStripMenuItem.Name = "ltMeterConfigurationToolStripMenuItem";
-            this.ltMeterConfigurationToolStripMenuItem.Size = new System.Drawing.Size(331, 34);
+            this.ltMeterConfigurationToolStripMenuItem.Size = new System.Drawing.Size(354, 36);
             this.ltMeterConfigurationToolStripMenuItem.Text = "LT Meter Configurations";
             this.ltMeterConfigurationToolStripMenuItem.Visible = false;
             this.ltMeterConfigurationToolStripMenuItem.Click += new System.EventHandler(this.ltMeterConfigurationToolStripMenuItem_Click);
@@ -565,7 +479,7 @@ namespace CAB.UI
             // wcmToolStripMenuItem
             // 
             this.wcmToolStripMenuItem.Name = "wcmToolStripMenuItem";
-            this.wcmToolStripMenuItem.Size = new System.Drawing.Size(331, 34);
+            this.wcmToolStripMenuItem.Size = new System.Drawing.Size(354, 36);
             this.wcmToolStripMenuItem.Text = "WCM Meter Configurations";
             this.wcmToolStripMenuItem.Visible = false;
             this.wcmToolStripMenuItem.Click += new System.EventHandler(this.wcmToolStripMenuItem_Click);
@@ -577,7 +491,7 @@ namespace CAB.UI
             this.MeterProgrammingToolStripMenuItem,
             this.GSMCommToolStripMenuItem});
             this.mnuMeterCommunication.Name = "mnuMeterCommunication";
-            this.mnuMeterCommunication.Size = new System.Drawing.Size(327, 34);
+            this.mnuMeterCommunication.Size = new System.Drawing.Size(349, 36);
             this.mnuMeterCommunication.Text = "Meter Communication";
             this.mnuMeterCommunication.Visible = false;
             this.mnuMeterCommunication.Click += new System.EventHandler(this.mnuMeterCommunication_Click);
@@ -585,25 +499,25 @@ namespace CAB.UI
             // readDataToolStripMenuItem
             // 
             this.readDataToolStripMenuItem.Name = "readDataToolStripMenuItem";
-            this.readDataToolStripMenuItem.Size = new System.Drawing.Size(275, 34);
+            this.readDataToolStripMenuItem.Size = new System.Drawing.Size(292, 36);
             this.readDataToolStripMenuItem.Text = "Mete&r Readout";
             // 
             // MeterProgrammingToolStripMenuItem
             // 
             this.MeterProgrammingToolStripMenuItem.Name = "MeterProgrammingToolStripMenuItem";
-            this.MeterProgrammingToolStripMenuItem.Size = new System.Drawing.Size(275, 34);
+            this.MeterProgrammingToolStripMenuItem.Size = new System.Drawing.Size(292, 36);
             this.MeterProgrammingToolStripMenuItem.Text = "&Meter Programming";
             // 
             // GSMCommToolStripMenuItem
             // 
             this.GSMCommToolStripMenuItem.Name = "GSMCommToolStripMenuItem";
-            this.GSMCommToolStripMenuItem.Size = new System.Drawing.Size(275, 34);
+            this.GSMCommToolStripMenuItem.Size = new System.Drawing.Size(292, 36);
             this.GSMCommToolStripMenuItem.Text = "GSM Connection";
             // 
             // dLMSCommunicationToolStripMenuItem
             // 
             this.dLMSCommunicationToolStripMenuItem.Name = "dLMSCommunicationToolStripMenuItem";
-            this.dLMSCommunicationToolStripMenuItem.Size = new System.Drawing.Size(327, 34);
+            this.dLMSCommunicationToolStripMenuItem.Size = new System.Drawing.Size(349, 36);
             this.dLMSCommunicationToolStripMenuItem.Text = "&DLMS Communication";
             this.dLMSCommunicationToolStripMenuItem.Visible = false;
             this.dLMSCommunicationToolStripMenuItem.Click += new System.EventHandler(this.dLMSCommunicationToolStripMenuItem_Click);
@@ -615,7 +529,7 @@ namespace CAB.UI
             this.installUninstallGSMServiceToolStripMenuItem,
             this.activateDeactivateGSMScheduleToolStripMenuItem});
             this.mnuGSMScheduling.Name = "mnuGSMScheduling";
-            this.mnuGSMScheduling.Size = new System.Drawing.Size(327, 34);
+            this.mnuGSMScheduling.Size = new System.Drawing.Size(349, 36);
             this.mnuGSMScheduling.Text = "Scheduled Communication";
             this.mnuGSMScheduling.Visible = false;
             this.mnuGSMScheduling.Click += new System.EventHandler(this.mnuGSMScheduling_Click);
@@ -623,7 +537,7 @@ namespace CAB.UI
             // gSMSchedulingToolStripMenuItem
             // 
             this.gSMSchedulingToolStripMenuItem.Name = "gSMSchedulingToolStripMenuItem";
-            this.gSMSchedulingToolStripMenuItem.Size = new System.Drawing.Size(385, 34);
+            this.gSMSchedulingToolStripMenuItem.Size = new System.Drawing.Size(417, 36);
             this.gSMSchedulingToolStripMenuItem.Text = "Create Groups";
             this.gSMSchedulingToolStripMenuItem.Visible = false;
             this.gSMSchedulingToolStripMenuItem.Click += new System.EventHandler(this.gSMSchedulingToolStripMenuItem_Click_1);
@@ -631,29 +545,30 @@ namespace CAB.UI
             // installUninstallGSMServiceToolStripMenuItem
             // 
             this.installUninstallGSMServiceToolStripMenuItem.Name = "installUninstallGSMServiceToolStripMenuItem";
-            this.installUninstallGSMServiceToolStripMenuItem.Size = new System.Drawing.Size(385, 34);
+            this.installUninstallGSMServiceToolStripMenuItem.Size = new System.Drawing.Size(417, 36);
             this.installUninstallGSMServiceToolStripMenuItem.Text = "Install/Uninstall GSM Service";
             this.installUninstallGSMServiceToolStripMenuItem.Visible = false;
             // 
             // activateDeactivateGSMScheduleToolStripMenuItem
             // 
             this.activateDeactivateGSMScheduleToolStripMenuItem.Name = "activateDeactivateGSMScheduleToolStripMenuItem";
-            this.activateDeactivateGSMScheduleToolStripMenuItem.Size = new System.Drawing.Size(385, 34);
+            this.activateDeactivateGSMScheduleToolStripMenuItem.Size = new System.Drawing.Size(417, 36);
             this.activateDeactivateGSMScheduleToolStripMenuItem.Text = "Activate/Deactivate GSM Schedule";
             this.activateDeactivateGSMScheduleToolStripMenuItem.Visible = false;
             // 
             // uploadCABFileToolStripMenuItem
             // 
             this.uploadCABFileToolStripMenuItem.Name = "uploadCABFileToolStripMenuItem";
-            this.uploadCABFileToolStripMenuItem.Size = new System.Drawing.Size(327, 34);
+            this.uploadCABFileToolStripMenuItem.Size = new System.Drawing.Size(349, 36);
             this.uploadCABFileToolStripMenuItem.Text = "&Upload File";
             this.uploadCABFileToolStripMenuItem.Click += new System.EventHandler(this.uploadCABFileToolStripMenuItem_Click);
             // 
             // uploadXMLToolStripMenuItem
             // 
             this.uploadXMLToolStripMenuItem.Name = "uploadXMLToolStripMenuItem";
-            this.uploadXMLToolStripMenuItem.Size = new System.Drawing.Size(327, 34);
+            this.uploadXMLToolStripMenuItem.Size = new System.Drawing.Size(349, 36);
             this.uploadXMLToolStripMenuItem.Text = "Upload XML To CC";
+            this.uploadXMLToolStripMenuItem.Visible = false;
             this.uploadXMLToolStripMenuItem.Click += new System.EventHandler(this.uploadXMLToolStripMenuItem_Click);
             // 
             // settingsToolStripMenuItem1
@@ -666,50 +581,144 @@ namespace CAB.UI
             this.otherSettingToolStripMenuItem,
             this.meterPasswordToolStripMenuItem});
             this.settingsToolStripMenuItem1.Name = "settingsToolStripMenuItem1";
-            this.settingsToolStripMenuItem1.Size = new System.Drawing.Size(327, 34);
+            this.settingsToolStripMenuItem1.Size = new System.Drawing.Size(349, 36);
             this.settingsToolStripMenuItem1.Text = "&Settings";
             // 
             // systemConfigurationSettingsToolStripMenuItem
             // 
             this.systemConfigurationSettingsToolStripMenuItem.Name = "systemConfigurationSettingsToolStripMenuItem";
-            this.systemConfigurationSettingsToolStripMenuItem.Size = new System.Drawing.Size(260, 34);
-            this.systemConfigurationSettingsToolStripMenuItem.Text = "&System Settings";
+            this.systemConfigurationSettingsToolStripMenuItem.Size = new System.Drawing.Size(276, 36);
+            this.systemConfigurationSettingsToolStripMenuItem.Text = "&Configuration";
             this.systemConfigurationSettingsToolStripMenuItem.Click += new System.EventHandler(this.systemConfigurationSettingsToolStripMenuItem_Click);
             // 
             // cOMPortSettingsToolStripMenuItem
             // 
             this.cOMPortSettingsToolStripMenuItem.Name = "cOMPortSettingsToolStripMenuItem";
-            this.cOMPortSettingsToolStripMenuItem.Size = new System.Drawing.Size(260, 34);
+            this.cOMPortSettingsToolStripMenuItem.Size = new System.Drawing.Size(276, 36);
             this.cOMPortSettingsToolStripMenuItem.Text = "&Port Settings";
             this.cOMPortSettingsToolStripMenuItem.Click += new System.EventHandler(this.cOMPortSettingsToolStripMenuItem_Click);
             // 
             // schedularSettingToolStripMenuItem
             // 
             this.schedularSettingToolStripMenuItem.Name = "schedularSettingToolStripMenuItem";
-            this.schedularSettingToolStripMenuItem.Size = new System.Drawing.Size(260, 34);
+            this.schedularSettingToolStripMenuItem.Size = new System.Drawing.Size(276, 36);
             this.schedularSettingToolStripMenuItem.Text = "&Schedular Settings";
+            this.schedularSettingToolStripMenuItem.Visible = false;
             this.schedularSettingToolStripMenuItem.Click += new System.EventHandler(this.schedularSettingToolStripMenuItem_Click);
             // 
             // fTPSeetingsToolStripMenuItem
             // 
             this.fTPSeetingsToolStripMenuItem.Name = "fTPSeetingsToolStripMenuItem";
-            this.fTPSeetingsToolStripMenuItem.Size = new System.Drawing.Size(260, 34);
+            this.fTPSeetingsToolStripMenuItem.Size = new System.Drawing.Size(276, 36);
             this.fTPSeetingsToolStripMenuItem.Text = "&FTP Settings";
+            this.fTPSeetingsToolStripMenuItem.Visible = false;
             this.fTPSeetingsToolStripMenuItem.Click += new System.EventHandler(this.fTPSeetingsToolStripMenuItem_Click);
             // 
             // otherSettingToolStripMenuItem
             // 
             this.otherSettingToolStripMenuItem.Name = "otherSettingToolStripMenuItem";
-            this.otherSettingToolStripMenuItem.Size = new System.Drawing.Size(260, 34);
-            this.otherSettingToolStripMenuItem.Text = "&Other Settings";
+            this.otherSettingToolStripMenuItem.Size = new System.Drawing.Size(276, 36);
+            this.otherSettingToolStripMenuItem.Text = "&Password Settings";
             this.otherSettingToolStripMenuItem.Click += new System.EventHandler(this.dLMSSettingsToolStripMenuItem_Click);
             // 
             // meterPasswordToolStripMenuItem
             // 
             this.meterPasswordToolStripMenuItem.Name = "meterPasswordToolStripMenuItem";
-            this.meterPasswordToolStripMenuItem.Size = new System.Drawing.Size(260, 34);
+            this.meterPasswordToolStripMenuItem.Size = new System.Drawing.Size(276, 36);
             this.meterPasswordToolStripMenuItem.Text = "Meter Password";
+            this.meterPasswordToolStripMenuItem.Visible = false;
             this.meterPasswordToolStripMenuItem.Click += new System.EventHandler(this.meterPasswordToolStripMenuItem_Click);
+            // 
+            // scheduleToolStripMenuItem
+            // 
+            this.scheduleToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cMRISchedulerToolStripMenuItem,
+            this.meterDataSchedulerToolStripMenuItem});
+            this.scheduleToolStripMenuItem.Name = "scheduleToolStripMenuItem";
+            this.scheduleToolStripMenuItem.Size = new System.Drawing.Size(72, 32);
+            this.scheduleToolStripMenuItem.Text = "Tasks";
+            // 
+            // cMRISchedulerToolStripMenuItem
+            // 
+            this.cMRISchedulerToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.configurationFileToolStripMenuItem,
+            this.cMRISchedulingToolStripMenuItem,
+            this.securityFileToolStripMenuItem});
+            this.cMRISchedulerToolStripMenuItem.Name = "cMRISchedulerToolStripMenuItem";
+            this.cMRISchedulerToolStripMenuItem.Size = new System.Drawing.Size(303, 36);
+            this.cMRISchedulerToolStripMenuItem.Text = "&CMRI Scheduler";
+            // 
+            // configurationFileToolStripMenuItem
+            // 
+            this.configurationFileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.dLMSToolStripMenuItem,
+            this.iECToolStripMenuItem});
+            this.configurationFileToolStripMenuItem.Name = "configurationFileToolStripMenuItem";
+            this.configurationFileToolStripMenuItem.Size = new System.Drawing.Size(270, 36);
+            this.configurationFileToolStripMenuItem.Text = "&Configuration File";
+            this.configurationFileToolStripMenuItem.Click += new System.EventHandler(this.configurationFileToolStripMenuItem_Click);
+            // 
+            // dLMSToolStripMenuItem
+            // 
+            this.dLMSToolStripMenuItem.Name = "dLMSToolStripMenuItem";
+            this.dLMSToolStripMenuItem.Size = new System.Drawing.Size(166, 36);
+            this.dLMSToolStripMenuItem.Text = "&DLMS";
+            this.dLMSToolStripMenuItem.Visible = false;
+            this.dLMSToolStripMenuItem.Click += new System.EventHandler(this.dLMSToolStripMenuItem_Click);
+            // 
+            // iECToolStripMenuItem
+            // 
+            this.iECToolStripMenuItem.Name = "iECToolStripMenuItem";
+            this.iECToolStripMenuItem.Size = new System.Drawing.Size(166, 36);
+            this.iECToolStripMenuItem.Text = "&IEC";
+            this.iECToolStripMenuItem.Visible = false;
+            this.iECToolStripMenuItem.Click += new System.EventHandler(this.iECToolStripMenuItem_Click);
+            // 
+            // cMRISchedulingToolStripMenuItem
+            // 
+            this.cMRISchedulingToolStripMenuItem.Name = "cMRISchedulingToolStripMenuItem";
+            this.cMRISchedulingToolStripMenuItem.Size = new System.Drawing.Size(270, 36);
+            this.cMRISchedulingToolStripMenuItem.Text = "&Schedule File";
+            this.cMRISchedulingToolStripMenuItem.Click += new System.EventHandler(this.cMRISchedulingToolStripMenuItem_Click);
+            // 
+            // securityFileToolStripMenuItem
+            // 
+            this.securityFileToolStripMenuItem.Name = "securityFileToolStripMenuItem";
+            this.securityFileToolStripMenuItem.Size = new System.Drawing.Size(270, 36);
+            this.securityFileToolStripMenuItem.Text = "Security File";
+            this.securityFileToolStripMenuItem.Click += new System.EventHandler(this.securityFileToolStripMenuItem_Click);
+            // 
+            // meterDataSchedulerToolStripMenuItem
+            // 
+            this.meterDataSchedulerToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem1,
+            this.groupWiseGSMSchedulingToolStripMenuItem,
+            this.readingGSMTaskManagerToolStripMenuItem});
+            this.meterDataSchedulerToolStripMenuItem.Name = "meterDataSchedulerToolStripMenuItem";
+            this.meterDataSchedulerToolStripMenuItem.Size = new System.Drawing.Size(303, 36);
+            this.meterDataSchedulerToolStripMenuItem.Text = "&Meter Data Scheduler";
+            this.meterDataSchedulerToolStripMenuItem.Visible = false;
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(253, 36);
+            this.toolStripMenuItem1.Text = "&Group Manager";
+            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
+            // 
+            // groupWiseGSMSchedulingToolStripMenuItem
+            // 
+            this.groupWiseGSMSchedulingToolStripMenuItem.Name = "groupWiseGSMSchedulingToolStripMenuItem";
+            this.groupWiseGSMSchedulingToolStripMenuItem.Size = new System.Drawing.Size(253, 36);
+            this.groupWiseGSMSchedulingToolStripMenuItem.Text = "&Task Scheduler";
+            this.groupWiseGSMSchedulingToolStripMenuItem.Click += new System.EventHandler(this.groupWiseGSMSchedulingToolStripMenuItem_Click);
+            // 
+            // readingGSMTaskManagerToolStripMenuItem
+            // 
+            this.readingGSMTaskManagerToolStripMenuItem.Name = "readingGSMTaskManagerToolStripMenuItem";
+            this.readingGSMTaskManagerToolStripMenuItem.Size = new System.Drawing.Size(253, 36);
+            this.readingGSMTaskManagerToolStripMenuItem.Text = "T&ask Manager";
+            this.readingGSMTaskManagerToolStripMenuItem.Click += new System.EventHandler(this.readingGSMTaskManagerToolStripMenuItem_Click);
             // 
             // configurationToolStripMenuItem
             // 
@@ -717,14 +726,14 @@ namespace CAB.UI
             this.meterTypeConfigurationToolStripMenuItem,
             this.meterIDConfoguartionToolStripMenuItem});
             this.configurationToolStripMenuItem.Name = "configurationToolStripMenuItem";
-            this.configurationToolStripMenuItem.Size = new System.Drawing.Size(137, 29);
+            this.configurationToolStripMenuItem.Size = new System.Drawing.Size(149, 32);
             this.configurationToolStripMenuItem.Text = "&Configuration";
             this.configurationToolStripMenuItem.Visible = false;
             // 
             // meterTypeConfigurationToolStripMenuItem
             // 
             this.meterTypeConfigurationToolStripMenuItem.Name = "meterTypeConfigurationToolStripMenuItem";
-            this.meterTypeConfigurationToolStripMenuItem.Size = new System.Drawing.Size(316, 34);
+            this.meterTypeConfigurationToolStripMenuItem.Size = new System.Drawing.Size(338, 36);
             this.meterTypeConfigurationToolStripMenuItem.Text = "Meter Type Configuration";
             this.meterTypeConfigurationToolStripMenuItem.Visible = false;
             this.meterTypeConfigurationToolStripMenuItem.Click += new System.EventHandler(this.meterTypeConfigurationToolStripMenuItem_Click);
@@ -732,7 +741,7 @@ namespace CAB.UI
             // meterIDConfoguartionToolStripMenuItem
             // 
             this.meterIDConfoguartionToolStripMenuItem.Name = "meterIDConfoguartionToolStripMenuItem";
-            this.meterIDConfoguartionToolStripMenuItem.Size = new System.Drawing.Size(316, 34);
+            this.meterIDConfoguartionToolStripMenuItem.Size = new System.Drawing.Size(338, 36);
             this.meterIDConfoguartionToolStripMenuItem.Text = "Meter ID Configuartion";
             this.meterIDConfoguartionToolStripMenuItem.Visible = false;
             // 
@@ -750,27 +759,27 @@ namespace CAB.UI
             this.instantToolStripMenuItem,
             this.gSMReportToolStripMenuItem});
             this.reportsToolStripMenuItem.Name = "reportsToolStripMenuItem";
-            this.reportsToolStripMenuItem.Size = new System.Drawing.Size(89, 29);
+            this.reportsToolStripMenuItem.Size = new System.Drawing.Size(95, 32);
             this.reportsToolStripMenuItem.Text = "&Reports";
             // 
             // detailedReportToolStripMenuItem
             // 
             this.detailedReportToolStripMenuItem.Name = "detailedReportToolStripMenuItem";
-            this.detailedReportToolStripMenuItem.Size = new System.Drawing.Size(385, 34);
+            this.detailedReportToolStripMenuItem.Size = new System.Drawing.Size(413, 36);
             this.detailedReportToolStripMenuItem.Text = "&Detailed Report";
             this.detailedReportToolStripMenuItem.Click += new System.EventHandler(this.detailedReportToolStripMenuItem_Click);
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(385, 34);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(413, 36);
             this.toolStripMenuItem2.Text = "Billing Report";
             this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
             // 
             // tamperToolStripMenuItem
             // 
             this.tamperToolStripMenuItem.Name = "tamperToolStripMenuItem";
-            this.tamperToolStripMenuItem.Size = new System.Drawing.Size(385, 34);
+            this.tamperToolStripMenuItem.Size = new System.Drawing.Size(413, 36);
             this.tamperToolStripMenuItem.Text = "&Tamper";
             this.tamperToolStripMenuItem.Click += new System.EventHandler(this.tamperToolStripMenuItem_Click);
             // 
@@ -780,14 +789,14 @@ namespace CAB.UI
             this.fileWiseReportToolStripMenuItem,
             this.meterIDWiseReportToolStripMenuItem});
             this.loadSurveyToolStripMenuItem.Name = "loadSurveyToolStripMenuItem";
-            this.loadSurveyToolStripMenuItem.Size = new System.Drawing.Size(385, 34);
+            this.loadSurveyToolStripMenuItem.Size = new System.Drawing.Size(413, 36);
             this.loadSurveyToolStripMenuItem.Text = "&Load Survey";
             this.loadSurveyToolStripMenuItem.Click += new System.EventHandler(this.loadSurveyToolStripMenuItem_Click);
             // 
             // fileWiseReportToolStripMenuItem
             // 
             this.fileWiseReportToolStripMenuItem.Name = "fileWiseReportToolStripMenuItem";
-            this.fileWiseReportToolStripMenuItem.Size = new System.Drawing.Size(284, 34);
+            this.fileWiseReportToolStripMenuItem.Size = new System.Drawing.Size(301, 36);
             this.fileWiseReportToolStripMenuItem.Text = "&File Wise Report";
             this.fileWiseReportToolStripMenuItem.Visible = false;
             this.fileWiseReportToolStripMenuItem.Click += new System.EventHandler(this.fileWiseReportToolStripMenuItem_Click);
@@ -795,7 +804,7 @@ namespace CAB.UI
             // meterIDWiseReportToolStripMenuItem
             // 
             this.meterIDWiseReportToolStripMenuItem.Name = "meterIDWiseReportToolStripMenuItem";
-            this.meterIDWiseReportToolStripMenuItem.Size = new System.Drawing.Size(284, 34);
+            this.meterIDWiseReportToolStripMenuItem.Size = new System.Drawing.Size(301, 36);
             this.meterIDWiseReportToolStripMenuItem.Text = "&Meter ID Wise Report";
             this.meterIDWiseReportToolStripMenuItem.Visible = false;
             this.meterIDWiseReportToolStripMenuItem.Click += new System.EventHandler(this.meterIDWiseReportToolStripMenuItem_Click);
@@ -803,8 +812,9 @@ namespace CAB.UI
             // toolStripMenuItem3
             // 
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(385, 34);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(413, 36);
             this.toolStripMenuItem3.Text = "&Load Switch";
+            this.toolStripMenuItem3.Visible = false;
             this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
             // 
             // midNightDataToolStripMenuItem
@@ -813,14 +823,14 @@ namespace CAB.UI
             this.toolStripFileWise,
             this.toolStripMeterIDWise});
             this.midNightDataToolStripMenuItem.Name = "midNightDataToolStripMenuItem";
-            this.midNightDataToolStripMenuItem.Size = new System.Drawing.Size(385, 34);
+            this.midNightDataToolStripMenuItem.Size = new System.Drawing.Size(413, 36);
             this.midNightDataToolStripMenuItem.Text = "&Mid Night ";
             this.midNightDataToolStripMenuItem.Click += new System.EventHandler(this.midNightDataToolStripMenuItem_Click);
             // 
             // toolStripFileWise
             // 
             this.toolStripFileWise.Name = "toolStripFileWise";
-            this.toolStripFileWise.Size = new System.Drawing.Size(284, 34);
+            this.toolStripFileWise.Size = new System.Drawing.Size(301, 36);
             this.toolStripFileWise.Text = "&File Wise Report";
             this.toolStripFileWise.Visible = false;
             this.toolStripFileWise.Click += new System.EventHandler(this.toolStripFileWise_Click);
@@ -828,7 +838,7 @@ namespace CAB.UI
             // toolStripMeterIDWise
             // 
             this.toolStripMeterIDWise.Name = "toolStripMeterIDWise";
-            this.toolStripMeterIDWise.Size = new System.Drawing.Size(284, 34);
+            this.toolStripMeterIDWise.Size = new System.Drawing.Size(301, 36);
             this.toolStripMeterIDWise.Text = "&Meter ID Wise Report";
             this.toolStripMeterIDWise.Visible = false;
             this.toolStripMeterIDWise.Click += new System.EventHandler(this.toolStripMeterIDWise_Click);
@@ -836,14 +846,15 @@ namespace CAB.UI
             // adHocReportToolStripMenuItem
             // 
             this.adHocReportToolStripMenuItem.Name = "adHocReportToolStripMenuItem";
-            this.adHocReportToolStripMenuItem.Size = new System.Drawing.Size(385, 34);
+            this.adHocReportToolStripMenuItem.Size = new System.Drawing.Size(413, 36);
             this.adHocReportToolStripMenuItem.Text = "Ad hoc Report";
+            this.adHocReportToolStripMenuItem.Visible = false;
             this.adHocReportToolStripMenuItem.Click += new System.EventHandler(this.adHocReportToolStripMenuItem_Click);
             // 
             // generalToolStripMenuItem
             // 
             this.generalToolStripMenuItem.Name = "generalToolStripMenuItem";
-            this.generalToolStripMenuItem.Size = new System.Drawing.Size(385, 34);
+            this.generalToolStripMenuItem.Size = new System.Drawing.Size(413, 36);
             this.generalToolStripMenuItem.Text = "&Meter Wise";
             this.generalToolStripMenuItem.Visible = false;
             this.generalToolStripMenuItem.Click += new System.EventHandler(this.generalToolStripMenuItem_Click);
@@ -851,7 +862,7 @@ namespace CAB.UI
             // instantToolStripMenuItem
             // 
             this.instantToolStripMenuItem.Name = "instantToolStripMenuItem";
-            this.instantToolStripMenuItem.Size = new System.Drawing.Size(385, 34);
+            this.instantToolStripMenuItem.Size = new System.Drawing.Size(413, 36);
             this.instantToolStripMenuItem.Text = "D&ate Wise";
             this.instantToolStripMenuItem.Visible = false;
             this.instantToolStripMenuItem.Click += new System.EventHandler(this.instantToolStripMenuItem_Click);
@@ -867,27 +878,28 @@ namespace CAB.UI
             this.gSMReadReportToolStripMenuItem,
             this.gSMConfigurationReportToolStripMenuItem});
             this.gSMReportToolStripMenuItem.Name = "gSMReportToolStripMenuItem";
-            this.gSMReportToolStripMenuItem.Size = new System.Drawing.Size(385, 34);
+            this.gSMReportToolStripMenuItem.Size = new System.Drawing.Size(413, 36);
             this.gSMReportToolStripMenuItem.Text = "&Scheduled Communication Report";
+            this.gSMReportToolStripMenuItem.Visible = false;
             // 
             // successReportToolStripMenuItem
             // 
             this.successReportToolStripMenuItem.Name = "successReportToolStripMenuItem";
-            this.successReportToolStripMenuItem.Size = new System.Drawing.Size(324, 34);
+            this.successReportToolStripMenuItem.Size = new System.Drawing.Size(347, 36);
             this.successReportToolStripMenuItem.Text = "&Success Report";
             this.successReportToolStripMenuItem.Click += new System.EventHandler(this.successReportToolStripMenuItem_Click);
             // 
             // schedulesReportToolStripMenuItem1
             // 
             this.schedulesReportToolStripMenuItem1.Name = "schedulesReportToolStripMenuItem1";
-            this.schedulesReportToolStripMenuItem1.Size = new System.Drawing.Size(324, 34);
+            this.schedulesReportToolStripMenuItem1.Size = new System.Drawing.Size(347, 36);
             this.schedulesReportToolStripMenuItem1.Text = "S&chedule Report";
             this.schedulesReportToolStripMenuItem1.Click += new System.EventHandler(this.schedulesReportToolStripMenuItem_Click);
             // 
             // billingReportToolStripMenuItem
             // 
             this.billingReportToolStripMenuItem.Name = "billingReportToolStripMenuItem";
-            this.billingReportToolStripMenuItem.Size = new System.Drawing.Size(324, 34);
+            this.billingReportToolStripMenuItem.Size = new System.Drawing.Size(347, 36);
             this.billingReportToolStripMenuItem.Text = "&Billing Report";
             this.billingReportToolStripMenuItem.Visible = false;
             this.billingReportToolStripMenuItem.Click += new System.EventHandler(this.billingReportToolStripMenuItem_Click);
@@ -895,7 +907,7 @@ namespace CAB.UI
             // gPRSStatusReportToolStripMenuItem
             // 
             this.gPRSStatusReportToolStripMenuItem.Name = "gPRSStatusReportToolStripMenuItem";
-            this.gPRSStatusReportToolStripMenuItem.Size = new System.Drawing.Size(324, 34);
+            this.gPRSStatusReportToolStripMenuItem.Size = new System.Drawing.Size(347, 36);
             this.gPRSStatusReportToolStripMenuItem.Text = "&GPRS Status Report";
             this.gPRSStatusReportToolStripMenuItem.Visible = false;
             this.gPRSStatusReportToolStripMenuItem.Click += new System.EventHandler(this.gPRSStatusReportToolStripMenuItem_Click);
@@ -903,21 +915,21 @@ namespace CAB.UI
             // gPRSLogReportToolStripMenuItem
             // 
             this.gPRSLogReportToolStripMenuItem.Name = "gPRSLogReportToolStripMenuItem";
-            this.gPRSLogReportToolStripMenuItem.Size = new System.Drawing.Size(324, 34);
+            this.gPRSLogReportToolStripMenuItem.Size = new System.Drawing.Size(347, 36);
             this.gPRSLogReportToolStripMenuItem.Text = "GPRS Status Report";
             this.gPRSLogReportToolStripMenuItem.Click += new System.EventHandler(this.gPRSLogReportToolStripMenuItem_Click);
             // 
             // gSMReadReportToolStripMenuItem
             // 
             this.gSMReadReportToolStripMenuItem.Name = "gSMReadReportToolStripMenuItem";
-            this.gSMReadReportToolStripMenuItem.Size = new System.Drawing.Size(324, 34);
+            this.gSMReadReportToolStripMenuItem.Size = new System.Drawing.Size(347, 36);
             this.gSMReadReportToolStripMenuItem.Text = "GSM Read Report";
             this.gSMReadReportToolStripMenuItem.Click += new System.EventHandler(this.gSMReadReportToolStripMenuItem_Click);
             // 
             // gSMConfigurationReportToolStripMenuItem
             // 
             this.gSMConfigurationReportToolStripMenuItem.Name = "gSMConfigurationReportToolStripMenuItem";
-            this.gSMConfigurationReportToolStripMenuItem.Size = new System.Drawing.Size(324, 34);
+            this.gSMConfigurationReportToolStripMenuItem.Size = new System.Drawing.Size(347, 36);
             this.gSMConfigurationReportToolStripMenuItem.Text = "GSM Configuration Report";
             this.gSMConfigurationReportToolStripMenuItem.Click += new System.EventHandler(this.gSMConfigurationReportToolStripMenuItem_Click);
             // 
@@ -928,27 +940,28 @@ namespace CAB.UI
             this.restoreDataToolStripMenuItem,
             this.deleteDataToolStripMenuItem});
             this.dataArchiveToolStripMenuItem.Name = "dataArchiveToolStripMenuItem";
-            this.dataArchiveToolStripMenuItem.Size = new System.Drawing.Size(128, 29);
+            this.dataArchiveToolStripMenuItem.Size = new System.Drawing.Size(139, 32);
             this.dataArchiveToolStripMenuItem.Text = "D&ata Archive";
+            this.dataArchiveToolStripMenuItem.Visible = false;
             // 
             // backupDataToolStripMenuItem
             // 
             this.backupDataToolStripMenuItem.Name = "backupDataToolStripMenuItem";
-            this.backupDataToolStripMenuItem.Size = new System.Drawing.Size(215, 34);
+            this.backupDataToolStripMenuItem.Size = new System.Drawing.Size(225, 36);
             this.backupDataToolStripMenuItem.Text = "&Backup Data";
             this.backupDataToolStripMenuItem.Click += new System.EventHandler(this.backupDataToolStripMenuItem_Click);
             // 
             // restoreDataToolStripMenuItem
             // 
             this.restoreDataToolStripMenuItem.Name = "restoreDataToolStripMenuItem";
-            this.restoreDataToolStripMenuItem.Size = new System.Drawing.Size(215, 34);
+            this.restoreDataToolStripMenuItem.Size = new System.Drawing.Size(225, 36);
             this.restoreDataToolStripMenuItem.Text = "&Restore Data";
             this.restoreDataToolStripMenuItem.Click += new System.EventHandler(this.restoreDataToolStripMenuItem_Click);
             // 
             // deleteDataToolStripMenuItem
             // 
             this.deleteDataToolStripMenuItem.Name = "deleteDataToolStripMenuItem";
-            this.deleteDataToolStripMenuItem.Size = new System.Drawing.Size(215, 34);
+            this.deleteDataToolStripMenuItem.Size = new System.Drawing.Size(225, 36);
             this.deleteDataToolStripMenuItem.Text = "&Delete Data";
             this.deleteDataToolStripMenuItem.Click += new System.EventHandler(this.deleteDataToolStripMenuItem_Click);
             // 
@@ -962,8 +975,9 @@ namespace CAB.UI
             this.aBCToolStripMenuItem,
             this.aBC1ToolStripMenuItem});
             this.exportImportToolStripMenuItem.Name = "exportImportToolStripMenuItem";
-            this.exportImportToolStripMenuItem.Size = new System.Drawing.Size(141, 29);
+            this.exportImportToolStripMenuItem.Size = new System.Drawing.Size(153, 32);
             this.exportImportToolStripMenuItem.Text = "&Export/Import";
+            this.exportImportToolStripMenuItem.Visible = false;
             // 
             // consumerToolStripMenuItem
             // 
@@ -972,27 +986,27 @@ namespace CAB.UI
             this.exportToolStripMenuItem1,
             this.importToolStripMenuItem});
             this.consumerToolStripMenuItem.Name = "consumerToolStripMenuItem";
-            this.consumerToolStripMenuItem.Size = new System.Drawing.Size(195, 34);
+            this.consumerToolStripMenuItem.Size = new System.Drawing.Size(202, 36);
             this.consumerToolStripMenuItem.Text = "&Consumer";
             // 
             // settingsToolStripMenuItem
             // 
             this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
-            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(178, 34);
+            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(185, 36);
             this.settingsToolStripMenuItem.Text = "Settings";
             this.settingsToolStripMenuItem.Click += new System.EventHandler(this.settingsToolStripMenuItem_Click_1);
             // 
             // exportToolStripMenuItem1
             // 
             this.exportToolStripMenuItem1.Name = "exportToolStripMenuItem1";
-            this.exportToolStripMenuItem1.Size = new System.Drawing.Size(178, 34);
+            this.exportToolStripMenuItem1.Size = new System.Drawing.Size(185, 36);
             this.exportToolStripMenuItem1.Text = "&Export";
             this.exportToolStripMenuItem1.Click += new System.EventHandler(this.exportToolStripMenuItem1_Click);
             // 
             // importToolStripMenuItem
             // 
             this.importToolStripMenuItem.Name = "importToolStripMenuItem";
-            this.importToolStripMenuItem.Size = new System.Drawing.Size(178, 34);
+            this.importToolStripMenuItem.Size = new System.Drawing.Size(185, 36);
             this.importToolStripMenuItem.Text = "&Import";
             this.importToolStripMenuItem.Click += new System.EventHandler(this.importToolStripMenuItem_Click_1);
             // 
@@ -1004,41 +1018,41 @@ namespace CAB.UI
             this.aSCIIToolStripMenuItem,
             this.standaToolStripMenuItem});
             this.meterToolStripMenuItem.Name = "meterToolStripMenuItem";
-            this.meterToolStripMenuItem.Size = new System.Drawing.Size(195, 34);
+            this.meterToolStripMenuItem.Size = new System.Drawing.Size(202, 36);
             this.meterToolStripMenuItem.Text = "&Meter";
             // 
             // aSCIISettingsToolStripMenuItem
             // 
             this.aSCIISettingsToolStripMenuItem.Name = "aSCIISettingsToolStripMenuItem";
-            this.aSCIISettingsToolStripMenuItem.Size = new System.Drawing.Size(245, 34);
+            this.aSCIISettingsToolStripMenuItem.Size = new System.Drawing.Size(258, 36);
             this.aSCIISettingsToolStripMenuItem.Text = "ASCII Settings";
             this.aSCIISettingsToolStripMenuItem.Click += new System.EventHandler(this.aSCIISettingsToolStripMenuItem_Click);
             // 
             // aSCIIExportToolStripMenuItem
             // 
             this.aSCIIExportToolStripMenuItem.Name = "aSCIIExportToolStripMenuItem";
-            this.aSCIIExportToolStripMenuItem.Size = new System.Drawing.Size(245, 34);
+            this.aSCIIExportToolStripMenuItem.Size = new System.Drawing.Size(258, 36);
             this.aSCIIExportToolStripMenuItem.Text = "ASCII Export";
             this.aSCIIExportToolStripMenuItem.Click += new System.EventHandler(this.aSCIIExportToolStripMenuItem_Click);
             // 
             // aSCIIToolStripMenuItem
             // 
             this.aSCIIToolStripMenuItem.Name = "aSCIIToolStripMenuItem";
-            this.aSCIIToolStripMenuItem.Size = new System.Drawing.Size(245, 34);
+            this.aSCIIToolStripMenuItem.Size = new System.Drawing.Size(258, 36);
             this.aSCIIToolStripMenuItem.Text = "Standard Export";
             this.aSCIIToolStripMenuItem.Click += new System.EventHandler(this.aSCIIToolStripMenuItem_Click);
             // 
             // standaToolStripMenuItem
             // 
             this.standaToolStripMenuItem.Name = "standaToolStripMenuItem";
-            this.standaToolStripMenuItem.Size = new System.Drawing.Size(245, 34);
+            this.standaToolStripMenuItem.Size = new System.Drawing.Size(258, 36);
             this.standaToolStripMenuItem.Text = "Standard Import";
             this.standaToolStripMenuItem.Click += new System.EventHandler(this.standaToolStripMenuItem_Click);
             // 
             // cDFToolStripMenuItem
             // 
             this.cDFToolStripMenuItem.Name = "cDFToolStripMenuItem";
-            this.cDFToolStripMenuItem.Size = new System.Drawing.Size(195, 34);
+            this.cDFToolStripMenuItem.Size = new System.Drawing.Size(202, 36);
             this.cDFToolStripMenuItem.Text = "C&DF";
             this.cDFToolStripMenuItem.Click += new System.EventHandler(this.cDFToolStripMenuItem_Click);
             // 
@@ -1050,48 +1064,48 @@ namespace CAB.UI
             this.automationExToolStripMenuItem,
             this.hVDSToolStripMenuItem});
             this.otherToolStripMenuItem.Name = "otherToolStripMenuItem";
-            this.otherToolStripMenuItem.Size = new System.Drawing.Size(195, 34);
+            this.otherToolStripMenuItem.Size = new System.Drawing.Size(202, 36);
             this.otherToolStripMenuItem.Text = "Other";
             // 
             // excelExportToolStripMenuItem1
             // 
             this.excelExportToolStripMenuItem1.Name = "excelExportToolStripMenuItem1";
-            this.excelExportToolStripMenuItem1.Size = new System.Drawing.Size(217, 34);
+            this.excelExportToolStripMenuItem1.Size = new System.Drawing.Size(227, 36);
             this.excelExportToolStripMenuItem1.Text = "Excel Export";
             this.excelExportToolStripMenuItem1.Click += new System.EventHandler(this.excelExportToolStripMenuItem_Click);
             // 
             // customTextFileExportToolStripMenuItem
             // 
             this.customTextFileExportToolStripMenuItem.Name = "customTextFileExportToolStripMenuItem";
-            this.customTextFileExportToolStripMenuItem.Size = new System.Drawing.Size(217, 34);
+            this.customTextFileExportToolStripMenuItem.Size = new System.Drawing.Size(227, 36);
             this.customTextFileExportToolStripMenuItem.Text = "ASCII Export";
             this.customTextFileExportToolStripMenuItem.Click += new System.EventHandler(this.customTextFileExportToolStripMenuItem_Click);
             // 
             // automationExToolStripMenuItem
             // 
             this.automationExToolStripMenuItem.Name = "automationExToolStripMenuItem";
-            this.automationExToolStripMenuItem.Size = new System.Drawing.Size(217, 34);
+            this.automationExToolStripMenuItem.Size = new System.Drawing.Size(227, 36);
             this.automationExToolStripMenuItem.Text = "Other Export";
             this.automationExToolStripMenuItem.Click += new System.EventHandler(this.automationExToolStripMenuItem_Click);
             // 
             // hVDSToolStripMenuItem
             // 
             this.hVDSToolStripMenuItem.Name = "hVDSToolStripMenuItem";
-            this.hVDSToolStripMenuItem.Size = new System.Drawing.Size(217, 34);
+            this.hVDSToolStripMenuItem.Size = new System.Drawing.Size(227, 36);
             this.hVDSToolStripMenuItem.Text = "HVDS Export";
             this.hVDSToolStripMenuItem.Click += new System.EventHandler(this.hVDSExportToolStripMenuItem_Click);
             // 
             // aBCToolStripMenuItem
             // 
             this.aBCToolStripMenuItem.Name = "aBCToolStripMenuItem";
-            this.aBCToolStripMenuItem.Size = new System.Drawing.Size(195, 34);
+            this.aBCToolStripMenuItem.Size = new System.Drawing.Size(202, 36);
             this.aBCToolStripMenuItem.Text = "ABC-1";
             this.aBCToolStripMenuItem.Click += new System.EventHandler(this.aBCToolStripMenuItem_Click);
             // 
             // aBC1ToolStripMenuItem
             // 
             this.aBC1ToolStripMenuItem.Name = "aBC1ToolStripMenuItem";
-            this.aBC1ToolStripMenuItem.Size = new System.Drawing.Size(195, 34);
+            this.aBC1ToolStripMenuItem.Size = new System.Drawing.Size(202, 36);
             this.aBC1ToolStripMenuItem.Text = "ABC-2";
             this.aBC1ToolStripMenuItem.Click += new System.EventHandler(this.aBC1ToolStripMenuItem_Click);
             // 
@@ -1100,14 +1114,14 @@ namespace CAB.UI
             this.tsmDebug.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsmDebug_decryptSecurityKeys});
             this.tsmDebug.Name = "tsmDebug";
-            this.tsmDebug.Size = new System.Drawing.Size(82, 29);
+            this.tsmDebug.Size = new System.Drawing.Size(87, 32);
             this.tsmDebug.Text = "Debug";
             this.tsmDebug.Visible = false;
             // 
             // tsmDebug_decryptSecurityKeys
             // 
             this.tsmDebug_decryptSecurityKeys.Name = "tsmDebug_decryptSecurityKeys";
-            this.tsmDebug_decryptSecurityKeys.Size = new System.Drawing.Size(284, 34);
+            this.tsmDebug_decryptSecurityKeys.Size = new System.Drawing.Size(303, 36);
             this.tsmDebug_decryptSecurityKeys.Text = "Decrypt Security Keys";
             this.tsmDebug_decryptSecurityKeys.Click += new System.EventHandler(this.TsmDebug_decryptSecurityKeys_Click);
             // 
@@ -1118,79 +1132,80 @@ namespace CAB.UI
             this.aboutToolStripMenuItem,
             this.registerProductToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(65, 29);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(69, 32);
             this.helpToolStripMenuItem.Text = "&Help";
             // 
             // contentsToolStripMenuItem
             // 
             this.contentsToolStripMenuItem.Name = "contentsToolStripMenuItem";
-            this.contentsToolStripMenuItem.Size = new System.Drawing.Size(249, 34);
+            this.contentsToolStripMenuItem.Size = new System.Drawing.Size(263, 36);
             this.contentsToolStripMenuItem.Text = "&Contents";
             this.contentsToolStripMenuItem.Click += new System.EventHandler(this.contentsToolStripMenuItem_Click);
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(249, 34);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(263, 36);
             this.aboutToolStripMenuItem.Text = "&About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
             // registerProductToolStripMenuItem
             // 
             this.registerProductToolStripMenuItem.Name = "registerProductToolStripMenuItem";
-            this.registerProductToolStripMenuItem.Size = new System.Drawing.Size(249, 34);
+            this.registerProductToolStripMenuItem.Size = new System.Drawing.Size(270, 36);
             this.registerProductToolStripMenuItem.Text = "&Register Product ";
+            this.registerProductToolStripMenuItem.Visible = false;
             this.registerProductToolStripMenuItem.Click += new System.EventHandler(this.registerProductToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(55, 29);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(59, 32);
             this.exitToolStripMenuItem.Text = "E&xit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // statusBar
             // 
-            this.statusBar.BackColor = System.Drawing.Color.FromArgb(30, 30, 30);
+            this.statusBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.statusBar.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.statusBar.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1,
             this.toolStripStatusLabel,
             this.toolStripStatusLabel2});
-            this.statusBar.Location = new System.Drawing.Point(0, 868);
+            this.statusBar.Location = new System.Drawing.Point(0, 879);
             this.statusBar.Name = "statusBar";
             this.statusBar.Padding = new System.Windows.Forms.Padding(2, 0, 21, 0);
-            this.statusBar.Size = new System.Drawing.Size(1964, 50);
+            this.statusBar.Size = new System.Drawing.Size(1924, 39);
             this.statusBar.TabIndex = 2;
             this.statusBar.Text = "statusStrip1";
             // 
             // toolStripStatusLabel1
             // 
-            this.toolStripStatusLabel1.BackColor = System.Drawing.Color.FromArgb(30, 30, 30);
+            this.toolStripStatusLabel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.toolStripStatusLabel1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toolStripStatusLabel1.ForeColor = System.Drawing.Color.FromArgb(0, 120, 215);
+            this.toolStripStatusLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(120)))), ((int)(((byte)(215)))));
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(386, 43);
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(256, 32);
             this.toolStripStatusLabel1.Text = "Cabcon Technologies";
             this.toolStripStatusLabel1.Click += new System.EventHandler(this.toolStripStatusLabel1_Click);
             // 
             // toolStripStatusLabel
             // 
-            this.toolStripStatusLabel.BackColor = System.Drawing.Color.FromArgb(30, 30, 30);
+            this.toolStripStatusLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.toolStripStatusLabel.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toolStripStatusLabel.ForeColor = System.Drawing.Color.FromArgb(180, 220, 255);
+            this.toolStripStatusLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(220)))), ((int)(((byte)(255)))));
             this.toolStripStatusLabel.Name = "toolStripStatusLabel";
-            this.toolStripStatusLabel.Size = new System.Drawing.Size(1376, 43);
+            this.toolStripStatusLabel.Size = new System.Drawing.Size(1466, 32);
             this.toolStripStatusLabel.Spring = true;
             this.toolStripStatusLabel.Click += new System.EventHandler(this.toolStripStatusLabel_Click);
             // 
             // toolStripStatusLabel2
             // 
-            this.toolStripStatusLabel2.BackColor = System.Drawing.Color.FromArgb(30, 30, 30);
-            this.toolStripStatusLabel2.ForeColor = System.Drawing.Color.FromArgb(150, 150, 150);
+            this.toolStripStatusLabel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.toolStripStatusLabel2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripStatusLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(150)))));
             this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
-            this.toolStripStatusLabel2.Size = new System.Drawing.Size(179, 43);
+            this.toolStripStatusLabel2.Size = new System.Drawing.Size(179, 32);
             this.toolStripStatusLabel2.Text = "toolStripStatusLabel2";
             this.toolStripStatusLabel2.Click += new System.EventHandler(this.toolStripStatusLabel2_Click);
             // 
@@ -1200,10 +1215,10 @@ namespace CAB.UI
             this.panelListViewContainer.Controls.Add(this.listViewExplorer);
             this.panelListViewContainer.Controls.Add(this.panelSearchBoxContainer);
             this.panelListViewContainer.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelListViewContainer.Location = new System.Drawing.Point(0, 241);
+            this.panelListViewContainer.Location = new System.Drawing.Point(0, 244);
             this.panelListViewContainer.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panelListViewContainer.Name = "panelListViewContainer";
-            this.panelListViewContainer.Size = new System.Drawing.Size(300, 627);
+            this.panelListViewContainer.Size = new System.Drawing.Size(300, 635);
             this.panelListViewContainer.TabIndex = 6;
             // 
             // listViewExplorer
@@ -1219,7 +1234,7 @@ namespace CAB.UI
             this.listViewExplorer.Margin = new System.Windows.Forms.Padding(2);
             this.listViewExplorer.MultiSelect = false;
             this.listViewExplorer.Name = "listViewExplorer";
-            this.listViewExplorer.Size = new System.Drawing.Size(300, 521);
+            this.listViewExplorer.Size = new System.Drawing.Size(300, 529);
             this.listViewExplorer.SmallImageList = this.imageList1;
             this.listViewExplorer.TabIndex = 2;
             this.listViewExplorer.UseCompatibleStateImageBehavior = false;
@@ -1301,10 +1316,10 @@ namespace CAB.UI
             this.cboSearch.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboSearch.FormattingEnabled = true;
             this.cboSearch.ItemHeight = 20;
-            this.cboSearch.Location = new System.Drawing.Point(3, 0);
+            this.cboSearch.Location = new System.Drawing.Point(4, 6);
             this.cboSearch.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cboSearch.Name = "cboSearch";
-            this.cboSearch.Size = new System.Drawing.Size(167, 28);
+            this.cboSearch.Size = new System.Drawing.Size(162, 28);
             this.cboSearch.TabIndex = 0;
             this.cboSearch.SelectedIndexChanged += new System.EventHandler(this.cboSearch_SelectedIndexChanged);
             this.cboSearch.TextChanged += new System.EventHandler(this.cboSearch_TextChanged);
@@ -1312,7 +1327,7 @@ namespace CAB.UI
             // txtSearch
             // 
             this.txtSearch.Dock = System.Windows.Forms.DockStyle.Right;
-            this.txtSearch.Location = new System.Drawing.Point(170, 0);
+            this.txtSearch.Location = new System.Drawing.Point(166, 6);
             this.txtSearch.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(130, 26);
@@ -1328,11 +1343,11 @@ namespace CAB.UI
             this.lngLabel1.AutoSize = true;
             this.lngLabel1.BackColor = System.Drawing.Color.Transparent;
             this.lngLabel1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lngLabel1.ForeColor = System.Drawing.Color.FromArgb(32, 32, 32);
+            this.lngLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.lngLabel1.Location = new System.Drawing.Point(4, 8);
             this.lngLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lngLabel1.Name = "lngLabel1";
-            this.lngLabel1.Size = new System.Drawing.Size(100, 21);
+            this.lngLabel1.Size = new System.Drawing.Size(88, 25);
             this.lngLabel1.TabIndex = 1;
             this.lngLabel1.Text = "Search By";
             this.lngLabel1.TranslationKey = "L000051";
@@ -1341,21 +1356,19 @@ namespace CAB.UI
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Padding = new System.Windows.Forms.Padding(8);
             this.panel1.Controls.Add(this.tableLayoutPanel1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 87);
+            this.panel1.Location = new System.Drawing.Point(0, 90);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1964, 154);
+            this.panel1.Padding = new System.Windows.Forms.Padding(8);
+            this.panel1.Size = new System.Drawing.Size(1924, 154);
             this.panel1.TabIndex = 5;
             this.panel1.Visible = false;
             // 
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.BackColor = System.Drawing.Color.White;
-            this.tableLayoutPanel1.BackgroundImage = null;
-            this.tableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.None;
             this.tableLayoutPanel1.ColumnCount = 8;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 8.485785F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.44377F));
@@ -1392,15 +1405,15 @@ namespace CAB.UI
             this.tableLayoutPanel1.Cursor = System.Windows.Forms.Cursors.Default;
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.tableLayoutPanel1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tableLayoutPanel1.ForeColor = System.Drawing.Color.FromArgb(32, 32, 32);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(8, 8);
             this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 52F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 49F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 51F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1964, 154);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1908, 154);
             this.tableLayoutPanel1.TabIndex = 0;
             this.tableLayoutPanel1.Visible = false;
             this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
@@ -1410,11 +1423,11 @@ namespace CAB.UI
             this.lblMeterID.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblMeterID.AutoSize = true;
             this.lblMeterID.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeterID.ForeColor = System.Drawing.Color.FromArgb(96, 96, 96);
-            this.lblMeterID.Location = new System.Drawing.Point(5, 13);
+            this.lblMeterID.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(96)))), ((int)(((byte)(96)))));
+            this.lblMeterID.Location = new System.Drawing.Point(4, 13);
             this.lblMeterID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMeterID.Name = "lblMeterID";
-            this.lblMeterID.Size = new System.Drawing.Size(98, 28);
+            this.lblMeterID.Size = new System.Drawing.Size(87, 25);
             this.lblMeterID.TabIndex = 0;
             this.lblMeterID.Text = "Meter ID";
             // 
@@ -1423,11 +1436,11 @@ namespace CAB.UI
             this.lblMeterIDVal.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblMeterIDVal.AutoSize = true;
             this.lblMeterIDVal.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeterIDVal.ForeColor = System.Drawing.Color.FromArgb(32, 32, 32);
-            this.lblMeterIDVal.Location = new System.Drawing.Point(171, 17);
+            this.lblMeterIDVal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.lblMeterIDVal.Location = new System.Drawing.Point(165, 12);
             this.lblMeterIDVal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMeterIDVal.Name = "lblMeterIDVal";
-            this.lblMeterIDVal.Size = new System.Drawing.Size(65, 20);
+            this.lblMeterIDVal.Size = new System.Drawing.Size(76, 28);
             this.lblMeterIDVal.TabIndex = 1;
             this.lblMeterIDVal.Text = "--------";
             // 
@@ -1436,11 +1449,11 @@ namespace CAB.UI
             this.lblMeterType.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblMeterType.AutoSize = true;
             this.lblMeterType.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeterType.ForeColor = System.Drawing.Color.FromArgb(96, 96, 96);
-            this.lblMeterType.Location = new System.Drawing.Point(493, 13);
+            this.lblMeterType.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(96)))), ((int)(((byte)(96)))));
+            this.lblMeterType.Location = new System.Drawing.Point(478, 13);
             this.lblMeterType.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMeterType.Name = "lblMeterType";
-            this.lblMeterType.Size = new System.Drawing.Size(122, 28);
+            this.lblMeterType.Size = new System.Drawing.Size(109, 25);
             this.lblMeterType.TabIndex = 2;
             this.lblMeterType.Text = "Meter Type";
             // 
@@ -1449,11 +1462,11 @@ namespace CAB.UI
             this.lblMeterTypeVal.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblMeterTypeVal.AutoSize = true;
             this.lblMeterTypeVal.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeterTypeVal.ForeColor = System.Drawing.Color.FromArgb(32, 32, 32);
-            this.lblMeterTypeVal.Location = new System.Drawing.Point(660, 17);
+            this.lblMeterTypeVal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.lblMeterTypeVal.Location = new System.Drawing.Point(640, 12);
             this.lblMeterTypeVal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMeterTypeVal.Name = "lblMeterTypeVal";
-            this.lblMeterTypeVal.Size = new System.Drawing.Size(65, 20);
+            this.lblMeterTypeVal.Size = new System.Drawing.Size(76, 28);
             this.lblMeterTypeVal.TabIndex = 3;
             this.lblMeterTypeVal.Text = "--------";
             // 
@@ -1462,11 +1475,11 @@ namespace CAB.UI
             this.lblRegion.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblRegion.AutoSize = true;
             this.lblRegion.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRegion.ForeColor = System.Drawing.Color.FromArgb(96, 96, 96);
-            this.lblRegion.Location = new System.Drawing.Point(982, 13);
+            this.lblRegion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(96)))), ((int)(((byte)(96)))));
+            this.lblRegion.Location = new System.Drawing.Point(953, 13);
             this.lblRegion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRegion.Name = "lblRegion";
-            this.lblRegion.Size = new System.Drawing.Size(78, 28);
+            this.lblRegion.Size = new System.Drawing.Size(72, 25);
             this.lblRegion.TabIndex = 4;
             this.lblRegion.Text = "Region";
             // 
@@ -1475,11 +1488,11 @@ namespace CAB.UI
             this.lblRegionVal.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblRegionVal.AutoSize = true;
             this.lblRegionVal.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRegionVal.ForeColor = System.Drawing.Color.FromArgb(32, 32, 32);
-            this.lblRegionVal.Location = new System.Drawing.Point(1113, 17);
+            this.lblRegionVal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.lblRegionVal.Location = new System.Drawing.Point(1080, 12);
             this.lblRegionVal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRegionVal.Name = "lblRegionVal";
-            this.lblRegionVal.Size = new System.Drawing.Size(65, 20);
+            this.lblRegionVal.Size = new System.Drawing.Size(76, 28);
             this.lblRegionVal.TabIndex = 5;
             this.lblRegionVal.Text = "--------";
             // 
@@ -1488,11 +1501,11 @@ namespace CAB.UI
             this.lblEMF.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblEMF.AutoSize = true;
             this.lblEMF.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEMF.ForeColor = System.Drawing.Color.FromArgb(96, 96, 96);
-            this.lblEMF.Location = new System.Drawing.Point(1434, 13);
+            this.lblEMF.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(96)))), ((int)(((byte)(96)))));
+            this.lblEMF.Location = new System.Drawing.Point(1393, 13);
             this.lblEMF.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEMF.Name = "lblEMF";
-            this.lblEMF.Size = new System.Drawing.Size(54, 28);
+            this.lblEMF.Size = new System.Drawing.Size(48, 25);
             this.lblEMF.TabIndex = 6;
             this.lblEMF.Text = "EMF";
             // 
@@ -1501,11 +1514,11 @@ namespace CAB.UI
             this.lblEMFVal.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblEMFVal.AutoSize = true;
             this.lblEMFVal.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEMFVal.ForeColor = System.Drawing.Color.FromArgb(32, 32, 32);
-            this.lblEMFVal.Location = new System.Drawing.Point(1641, 17);
+            this.lblEMFVal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.lblEMFVal.Location = new System.Drawing.Point(1594, 12);
             this.lblEMFVal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEMFVal.Name = "lblEMFVal";
-            this.lblEMFVal.Size = new System.Drawing.Size(65, 20);
+            this.lblEMFVal.Size = new System.Drawing.Size(76, 28);
             this.lblEMFVal.TabIndex = 7;
             this.lblEMFVal.Text = "--------";
             // 
@@ -1514,11 +1527,11 @@ namespace CAB.UI
             this.lblConsumerID.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblConsumerID.AutoSize = true;
             this.lblConsumerID.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblConsumerID.ForeColor = System.Drawing.Color.FromArgb(96, 96, 96);
-            this.lblConsumerID.Location = new System.Drawing.Point(5, 64);
+            this.lblConsumerID.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(96)))), ((int)(((byte)(96)))));
+            this.lblConsumerID.Location = new System.Drawing.Point(4, 64);
             this.lblConsumerID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblConsumerID.Name = "lblConsumerID";
-            this.lblConsumerID.Size = new System.Drawing.Size(134, 28);
+            this.lblConsumerID.Size = new System.Drawing.Size(121, 25);
             this.lblConsumerID.TabIndex = 8;
             this.lblConsumerID.Text = "Consumer ID";
             // 
@@ -1527,11 +1540,11 @@ namespace CAB.UI
             this.lblConsumerIDVal.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblConsumerIDVal.AutoSize = true;
             this.lblConsumerIDVal.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblConsumerIDVal.ForeColor = System.Drawing.Color.FromArgb(32, 32, 32);
-            this.lblConsumerIDVal.Location = new System.Drawing.Point(171, 68);
+            this.lblConsumerIDVal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.lblConsumerIDVal.Location = new System.Drawing.Point(165, 62);
             this.lblConsumerIDVal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblConsumerIDVal.Name = "lblConsumerIDVal";
-            this.lblConsumerIDVal.Size = new System.Drawing.Size(65, 20);
+            this.lblConsumerIDVal.Size = new System.Drawing.Size(76, 28);
             this.lblConsumerIDVal.TabIndex = 9;
             this.lblConsumerIDVal.Text = "--------";
             // 
@@ -1540,11 +1553,11 @@ namespace CAB.UI
             this.lblMeterModel.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblMeterModel.AutoSize = true;
             this.lblMeterModel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeterModel.ForeColor = System.Drawing.Color.FromArgb(96, 96, 96);
-            this.lblMeterModel.Location = new System.Drawing.Point(493, 64);
+            this.lblMeterModel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(96)))), ((int)(((byte)(96)))));
+            this.lblMeterModel.Location = new System.Drawing.Point(478, 64);
             this.lblMeterModel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMeterModel.Name = "lblMeterModel";
-            this.lblMeterModel.Size = new System.Drawing.Size(139, 28);
+            this.lblMeterModel.Size = new System.Drawing.Size(122, 25);
             this.lblMeterModel.TabIndex = 10;
             this.lblMeterModel.Text = "Meter Model";
             // 
@@ -1553,11 +1566,11 @@ namespace CAB.UI
             this.lblMeterModelVal.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblMeterModelVal.AutoSize = true;
             this.lblMeterModelVal.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeterModelVal.ForeColor = System.Drawing.Color.FromArgb(32, 32, 32);
-            this.lblMeterModelVal.Location = new System.Drawing.Point(660, 68);
+            this.lblMeterModelVal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.lblMeterModelVal.Location = new System.Drawing.Point(640, 62);
             this.lblMeterModelVal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMeterModelVal.Name = "lblMeterModelVal";
-            this.lblMeterModelVal.Size = new System.Drawing.Size(65, 20);
+            this.lblMeterModelVal.Size = new System.Drawing.Size(76, 28);
             this.lblMeterModelVal.TabIndex = 11;
             this.lblMeterModelVal.Text = "--------";
             // 
@@ -1566,11 +1579,11 @@ namespace CAB.UI
             this.lblCircle.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblCircle.AutoSize = true;
             this.lblCircle.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCircle.ForeColor = System.Drawing.Color.FromArgb(96, 96, 96);
-            this.lblCircle.Location = new System.Drawing.Point(982, 64);
+            this.lblCircle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(96)))), ((int)(((byte)(96)))));
+            this.lblCircle.Location = new System.Drawing.Point(953, 64);
             this.lblCircle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCircle.Name = "lblCircle";
-            this.lblCircle.Size = new System.Drawing.Size(66, 28);
+            this.lblCircle.Size = new System.Drawing.Size(59, 25);
             this.lblCircle.TabIndex = 12;
             this.lblCircle.Text = "Circle";
             // 
@@ -1579,11 +1592,11 @@ namespace CAB.UI
             this.lblCircleVal.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblCircleVal.AutoSize = true;
             this.lblCircleVal.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCircleVal.ForeColor = System.Drawing.Color.FromArgb(32, 32, 32);
-            this.lblCircleVal.Location = new System.Drawing.Point(1113, 68);
+            this.lblCircleVal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.lblCircleVal.Location = new System.Drawing.Point(1080, 62);
             this.lblCircleVal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCircleVal.Name = "lblCircleVal";
-            this.lblCircleVal.Size = new System.Drawing.Size(65, 20);
+            this.lblCircleVal.Size = new System.Drawing.Size(76, 28);
             this.lblCircleVal.TabIndex = 13;
             this.lblCircleVal.Text = "--------";
             // 
@@ -1592,11 +1605,11 @@ namespace CAB.UI
             this.lblContractDemand.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblContractDemand.AutoSize = true;
             this.lblContractDemand.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblContractDemand.ForeColor = System.Drawing.Color.FromArgb(96, 96, 96);
-            this.lblContractDemand.Location = new System.Drawing.Point(1434, 64);
+            this.lblContractDemand.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(96)))), ((int)(((byte)(96)))));
+            this.lblContractDemand.Location = new System.Drawing.Point(1393, 64);
             this.lblContractDemand.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblContractDemand.Name = "lblContractDemand";
-            this.lblContractDemand.Size = new System.Drawing.Size(178, 28);
+            this.lblContractDemand.Size = new System.Drawing.Size(161, 25);
             this.lblContractDemand.TabIndex = 14;
             this.lblContractDemand.Text = "Contract Demand";
             // 
@@ -1605,11 +1618,11 @@ namespace CAB.UI
             this.lblContractDemandVal.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblContractDemandVal.AutoSize = true;
             this.lblContractDemandVal.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblContractDemandVal.ForeColor = System.Drawing.Color.FromArgb(32, 32, 32);
-            this.lblContractDemandVal.Location = new System.Drawing.Point(1641, 68);
+            this.lblContractDemandVal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.lblContractDemandVal.Location = new System.Drawing.Point(1594, 62);
             this.lblContractDemandVal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblContractDemandVal.Name = "lblContractDemandVal";
-            this.lblContractDemandVal.Size = new System.Drawing.Size(65, 20);
+            this.lblContractDemandVal.Size = new System.Drawing.Size(76, 28);
             this.lblContractDemandVal.TabIndex = 15;
             this.lblContractDemandVal.Text = "--------";
             // 
@@ -1618,11 +1631,11 @@ namespace CAB.UI
             this.lblInstalledDate.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblInstalledDate.AutoSize = true;
             this.lblInstalledDate.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblInstalledDate.ForeColor = System.Drawing.Color.FromArgb(96, 96, 96);
-            this.lblInstalledDate.Location = new System.Drawing.Point(5, 115);
+            this.lblInstalledDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(96)))), ((int)(((byte)(96)))));
+            this.lblInstalledDate.Location = new System.Drawing.Point(4, 115);
             this.lblInstalledDate.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblInstalledDate.Name = "lblInstalledDate";
-            this.lblInstalledDate.Size = new System.Drawing.Size(145, 28);
+            this.lblInstalledDate.Size = new System.Drawing.Size(130, 25);
             this.lblInstalledDate.TabIndex = 16;
             this.lblInstalledDate.Text = "Installed Date";
             // 
@@ -1631,11 +1644,11 @@ namespace CAB.UI
             this.lblInstalledDateVal.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblInstalledDateVal.AutoSize = true;
             this.lblInstalledDateVal.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblInstalledDateVal.ForeColor = System.Drawing.Color.FromArgb(32, 32, 32);
-            this.lblInstalledDateVal.Location = new System.Drawing.Point(171, 119);
+            this.lblInstalledDateVal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.lblInstalledDateVal.Location = new System.Drawing.Point(165, 113);
             this.lblInstalledDateVal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblInstalledDateVal.Name = "lblInstalledDateVal";
-            this.lblInstalledDateVal.Size = new System.Drawing.Size(65, 20);
+            this.lblInstalledDateVal.Size = new System.Drawing.Size(76, 28);
             this.lblInstalledDateVal.TabIndex = 17;
             this.lblInstalledDateVal.Text = "--------";
             // 
@@ -1644,11 +1657,11 @@ namespace CAB.UI
             this.lblMRINumber.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblMRINumber.AutoSize = true;
             this.lblMRINumber.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMRINumber.ForeColor = System.Drawing.Color.FromArgb(96, 96, 96);
-            this.lblMRINumber.Location = new System.Drawing.Point(493, 115);
+            this.lblMRINumber.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(96)))), ((int)(((byte)(96)))));
+            this.lblMRINumber.Location = new System.Drawing.Point(478, 115);
             this.lblMRINumber.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMRINumber.Name = "lblMRINumber";
-            this.lblMRINumber.Size = new System.Drawing.Size(89, 28);
+            this.lblMRINumber.Size = new System.Drawing.Size(82, 25);
             this.lblMRINumber.TabIndex = 18;
             this.lblMRINumber.Text = "CMRI ID";
             // 
@@ -1657,12 +1670,12 @@ namespace CAB.UI
             this.lblMRINumberVal.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblMRINumberVal.AutoSize = true;
             this.lblMRINumberVal.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMRINumberVal.ForeColor = System.Drawing.Color.FromArgb(32, 32, 32);
+            this.lblMRINumberVal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.lblMRINumberVal.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.lblMRINumberVal.Location = new System.Drawing.Point(660, 119);
+            this.lblMRINumberVal.Location = new System.Drawing.Point(640, 113);
             this.lblMRINumberVal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMRINumberVal.Name = "lblMRINumberVal";
-            this.lblMRINumberVal.Size = new System.Drawing.Size(65, 20);
+            this.lblMRINumberVal.Size = new System.Drawing.Size(76, 28);
             this.lblMRINumberVal.TabIndex = 19;
             this.lblMRINumberVal.Text = "--------";
             // 
@@ -1671,11 +1684,11 @@ namespace CAB.UI
             this.lblDivision.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblDivision.AutoSize = true;
             this.lblDivision.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDivision.ForeColor = System.Drawing.Color.FromArgb(96, 96, 96);
-            this.lblDivision.Location = new System.Drawing.Point(982, 115);
+            this.lblDivision.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(96)))), ((int)(((byte)(96)))));
+            this.lblDivision.Location = new System.Drawing.Point(953, 115);
             this.lblDivision.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDivision.Name = "lblDivision";
-            this.lblDivision.Size = new System.Drawing.Size(89, 28);
+            this.lblDivision.Size = new System.Drawing.Size(80, 25);
             this.lblDivision.TabIndex = 20;
             this.lblDivision.Text = "Division";
             // 
@@ -1684,11 +1697,11 @@ namespace CAB.UI
             this.lblDivisionVal.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblDivisionVal.AutoSize = true;
             this.lblDivisionVal.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDivisionVal.ForeColor = System.Drawing.Color.FromArgb(32, 32, 32);
-            this.lblDivisionVal.Location = new System.Drawing.Point(1113, 119);
+            this.lblDivisionVal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.lblDivisionVal.Location = new System.Drawing.Point(1080, 113);
             this.lblDivisionVal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDivisionVal.Name = "lblDivisionVal";
-            this.lblDivisionVal.Size = new System.Drawing.Size(65, 20);
+            this.lblDivisionVal.Size = new System.Drawing.Size(76, 28);
             this.lblDivisionVal.TabIndex = 21;
             this.lblDivisionVal.Text = "--------";
             // 
@@ -1697,11 +1710,11 @@ namespace CAB.UI
             this.lblActiveMeter.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblActiveMeter.AutoSize = true;
             this.lblActiveMeter.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblActiveMeter.ForeColor = System.Drawing.Color.FromArgb(96, 96, 96);
-            this.lblActiveMeter.Location = new System.Drawing.Point(1434, 115);
+            this.lblActiveMeter.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(96)))), ((int)(((byte)(96)))));
+            this.lblActiveMeter.Location = new System.Drawing.Point(1393, 115);
             this.lblActiveMeter.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblActiveMeter.Name = "lblActiveMeter";
-            this.lblActiveMeter.Size = new System.Drawing.Size(137, 28);
+            this.lblActiveMeter.Size = new System.Drawing.Size(122, 25);
             this.lblActiveMeter.TabIndex = 22;
             this.lblActiveMeter.Text = "Active Meter";
             // 
@@ -1710,17 +1723,17 @@ namespace CAB.UI
             this.lblActiveMeterVal.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblActiveMeterVal.AutoSize = true;
             this.lblActiveMeterVal.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblActiveMeterVal.ForeColor = System.Drawing.Color.FromArgb(32, 32, 32);
-            this.lblActiveMeterVal.Location = new System.Drawing.Point(1641, 119);
+            this.lblActiveMeterVal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.lblActiveMeterVal.Location = new System.Drawing.Point(1594, 113);
             this.lblActiveMeterVal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblActiveMeterVal.Name = "lblActiveMeterVal";
-            this.lblActiveMeterVal.Size = new System.Drawing.Size(65, 20);
+            this.lblActiveMeterVal.Size = new System.Drawing.Size(76, 28);
             this.lblActiveMeterVal.TabIndex = 23;
             this.lblActiveMeterVal.Text = "--------";
             // 
             // toolStripMainForm
             // 
-            this.toolStripMainForm.BackColor = System.Drawing.Color.FromArgb(0, 120, 215);
+            this.toolStripMainForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(120)))), ((int)(((byte)(215)))));
             this.toolStripMainForm.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripMainForm.ImageScalingSize = new System.Drawing.Size(45, 45);
             this.toolStripMainForm.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -1735,10 +1748,10 @@ namespace CAB.UI
             this.tsbGSM,
             this.toolStripButton1,
             this.toolStripSeparator1});
-            this.toolStripMainForm.Location = new System.Drawing.Point(0, 33);
+            this.toolStripMainForm.Location = new System.Drawing.Point(0, 36);
             this.toolStripMainForm.Name = "toolStripMainForm";
             this.toolStripMainForm.Padding = new System.Windows.Forms.Padding(0, 0, 3, 0);
-            this.toolStripMainForm.Size = new System.Drawing.Size(1964, 54);
+            this.toolStripMainForm.Size = new System.Drawing.Size(1924, 54);
             this.toolStripMainForm.Stretch = true;
             this.toolStripMainForm.TabIndex = 0;
             this.toolStripMainForm.Text = "toolStrip1";
@@ -1847,16 +1860,16 @@ namespace CAB.UI
             // 
             // mdiTabStrip1
             // 
-            this.mdiTabStrip1.BackColor = System.Drawing.Color.FromArgb(235, 240, 248);
+            this.mdiTabStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(240)))), ((int)(((byte)(248)))));
             this.mdiTabStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
             this.mdiTabStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.mdiTabStrip1.InactiveBorderColor = System.Drawing.Color.DimGray;
-            this.mdiTabStrip1.Location = new System.Drawing.Point(300, 241);
+            this.mdiTabStrip1.Location = new System.Drawing.Point(300, 244);
             this.mdiTabStrip1.Name = "mdiTabStrip1";
             this.mdiTabStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 3, 0);
             this.mdiTabStrip1.SelectedTab = null;
             this.mdiTabStrip1.ShowItemToolTips = false;
-            this.mdiTabStrip1.Size = new System.Drawing.Size(1664, 25);
+            this.mdiTabStrip1.Size = new System.Drawing.Size(1624, 25);
             this.mdiTabStrip1.TabIndex = 2;
             this.mdiTabStrip1.Text = "mdiTabStrip1";
             this.mdiTabStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.mdiTabStrip1_ItemClicked);
@@ -1869,7 +1882,7 @@ namespace CAB.UI
             this.lblHeader.ForeColor = System.Drawing.Color.White;
             this.lblHeader.Location = new System.Drawing.Point(477, 60);
             this.lblHeader.Name = "lblHeader";
-            this.lblHeader.Size = new System.Drawing.Size(0, 20);
+            this.lblHeader.Size = new System.Drawing.Size(0, 30);
             this.lblHeader.TabIndex = 7;
             // 
             // MainForm
@@ -1879,7 +1892,7 @@ namespace CAB.UI
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.BackgroundImage = global::CABApplication.Properties.Resources.bakgroundmain;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1964, 918);
+            this.ClientSize = new System.Drawing.Size(1924, 918);
             this.Controls.Add(this.lblHeader);
             this.Controls.Add(this.mdiTabStrip1);
             this.Controls.Add(this.panelListViewContainer);

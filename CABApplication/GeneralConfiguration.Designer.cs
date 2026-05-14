@@ -495,7 +495,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "GeneralConfiguration";
             this.StatusMessage = "";
-            this.Text = "System Settings";
+            this.Text = "Configuration";
             this.Load += new System.EventHandler(this.GeneralConfiguration_Load);
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.GeneralConfiguration_FormClosing);
             this.Activated += new System.EventHandler(this.rbtnCustom_CheckedChanged);
