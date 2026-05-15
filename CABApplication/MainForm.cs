@@ -115,7 +115,7 @@ namespace CAB.UI
         [Conditional("DEBUG")]
         private void ShowDebugOptions()
         {
-            tsmDebug.Visible = true;
+            // tsmDebug.Visible = true;
         }
         private void MainForm_Load(object sender, EventArgs e)
         {

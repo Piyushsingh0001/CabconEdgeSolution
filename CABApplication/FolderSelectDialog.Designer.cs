@@ -52,21 +52,19 @@ namespace CAB.UI
             // textBox1
             // 
             this.textBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.textBox1.Location = new System.Drawing.Point(8, 39);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Location = new System.Drawing.Point(11, 68);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(196, 20);
+            this.textBox1.Size = new System.Drawing.Size(281, 31);
             this.textBox1.TabIndex = 0;
             // 
             // cancelBtn
             // 
             this.cancelBtn.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.cancelBtn.Dock = System.Windows.Forms.DockStyle.Right;
-            this.cancelBtn.Location = new System.Drawing.Point(136, 8);
-            this.cancelBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cancelBtn.Location = new System.Drawing.Point(195, 13);
             this.cancelBtn.Name = "cancelBtn";
-            this.cancelBtn.Size = new System.Drawing.Size(68, 29);
+            this.cancelBtn.Size = new System.Drawing.Size(97, 49);
             this.cancelBtn.TabIndex = 3;
             this.cancelBtn.Text = "Cancel";
             this.cancelBtn.Click += new System.EventHandler(this.cancelBtn_Click);
@@ -74,10 +72,9 @@ namespace CAB.UI
             // selectBtn
             // 
             this.selectBtn.Dock = System.Windows.Forms.DockStyle.Left;
-            this.selectBtn.Location = new System.Drawing.Point(8, 8);
-            this.selectBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.selectBtn.Location = new System.Drawing.Point(11, 13);
             this.selectBtn.Name = "selectBtn";
-            this.selectBtn.Size = new System.Drawing.Size(68, 29);
+            this.selectBtn.Size = new System.Drawing.Size(97, 49);
             this.selectBtn.TabIndex = 2;
             this.selectBtn.Text = "Select";
             this.selectBtn.Click += new System.EventHandler(this.selectBtn_Click);
@@ -86,10 +83,9 @@ namespace CAB.UI
             // 
             this.panel3.Controls.Add(this.treeView1);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(0, 67);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel3.Location = new System.Drawing.Point(0, 112);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(212, 95);
+            this.panel3.Size = new System.Drawing.Size(303, 158);
             this.panel3.TabIndex = 8;
             // 
             // treeView1
@@ -99,7 +95,6 @@ namespace CAB.UI
             this.treeView1.ImageList = this.imageList1;
             this.treeView1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.treeView1.Location = new System.Drawing.Point(0, 0);
-            this.treeView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.treeView1.Name = "treeView1";
             treeNode1.Name = "";
             treeNode1.Text = "Node2";
@@ -110,7 +105,7 @@ namespace CAB.UI
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
             treeNode3});
             this.treeView1.SelectedImageIndex = 1;
-            this.treeView1.Size = new System.Drawing.Size(212, 95);
+            this.treeView1.Size = new System.Drawing.Size(303, 158);
             this.treeView1.TabIndex = 0;
             this.treeView1.BeforeExpand += new System.Windows.Forms.TreeViewCancelEventHandler(this.treeView1_BeforeExpand);
             this.treeView1.BeforeSelect += new System.Windows.Forms.TreeViewCancelEventHandler(this.treeView1_BeforeSelect);
@@ -128,11 +123,10 @@ namespace CAB.UI
             this.panel2.Controls.Add(this.cancelBtn);
             this.panel2.Controls.Add(this.selectBtn);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 162);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Location = new System.Drawing.Point(0, 270);
             this.panel2.Name = "panel2";
-            this.panel2.Padding = new System.Windows.Forms.Padding(8, 8, 8, 8);
-            this.panel2.Size = new System.Drawing.Size(212, 45);
+            this.panel2.Padding = new System.Windows.Forms.Padding(11, 13, 11, 13);
+            this.panel2.Size = new System.Drawing.Size(303, 75);
             this.panel2.TabIndex = 7;
             // 
             // panel1
@@ -141,33 +135,31 @@ namespace CAB.UI
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Padding = new System.Windows.Forms.Padding(8, 8, 8, 8);
-            this.panel1.Size = new System.Drawing.Size(212, 67);
+            this.panel1.Padding = new System.Windows.Forms.Padding(11, 13, 11, 13);
+            this.panel1.Size = new System.Drawing.Size(303, 112);
             this.panel1.TabIndex = 6;
             // 
             // label1
             // 
             this.label1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label1.Location = new System.Drawing.Point(8, 8);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(11, 13);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(196, 21);
+            this.label1.Size = new System.Drawing.Size(281, 35);
             this.label1.TabIndex = 1;
             this.label1.Text = "Full Path";
             // 
             // FolderSelectDialog
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.BackColor = System.Drawing.Color.FromArgb(240, 242, 245);
-            this.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(212, 207);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(242)))), ((int)(((byte)(245)))));
+            this.ClientSize = new System.Drawing.Size(303, 345);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FolderSelectDialog";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Select Folder";

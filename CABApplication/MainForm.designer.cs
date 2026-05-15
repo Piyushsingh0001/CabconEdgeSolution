@@ -1152,7 +1152,7 @@ namespace CAB.UI
             // registerProductToolStripMenuItem
             // 
             this.registerProductToolStripMenuItem.Name = "registerProductToolStripMenuItem";
-            this.registerProductToolStripMenuItem.Size = new System.Drawing.Size(270, 36);
+            this.registerProductToolStripMenuItem.Size = new System.Drawing.Size(263, 36);
             this.registerProductToolStripMenuItem.Text = "&Register Product ";
             this.registerProductToolStripMenuItem.Visible = false;
             this.registerProductToolStripMenuItem.Click += new System.EventHandler(this.registerProductToolStripMenuItem_Click);

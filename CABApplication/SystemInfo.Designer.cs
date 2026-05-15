@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SystemInfo));
             this.tabSystemInfo = new CAB.UI.Controls.PremiumTabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -52,6 +53,8 @@
             // 
             this.tabSystemInfo.Controls.Add(this.tabPage1);
             this.tabSystemInfo.Controls.Add(this.tabPage2);
+            this.tabSystemInfo.DrawMode = System.Windows.Forms.TabDrawMode.OwnerDrawFixed;
+            this.tabSystemInfo.ItemSize = new System.Drawing.Size(120, 30);
             this.tabSystemInfo.Location = new System.Drawing.Point(1, 2);
             this.tabSystemInfo.Name = "tabSystemInfo";
             this.tabSystemInfo.SelectedIndex = 0;
@@ -61,10 +64,10 @@
             // tabPage1
             // 
             this.tabPage1.Controls.Add(this.groupBox1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Location = new System.Drawing.Point(4, 34);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(445, 262);
+            this.tabPage1.Size = new System.Drawing.Size(445, 250);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "General";
             // 
@@ -87,7 +90,7 @@
             this.lblOS.AutoSize = true;
             this.lblOS.Location = new System.Drawing.Point(15, 172);
             this.lblOS.Name = "lblOS";
-            this.lblOS.Size = new System.Drawing.Size(35, 13);
+            this.lblOS.Size = new System.Drawing.Size(59, 25);
             this.lblOS.TabIndex = 12;
             this.lblOS.Text = "label1";
             // 
@@ -96,7 +99,7 @@
             this.lbldomainname.AutoSize = true;
             this.lbldomainname.Location = new System.Drawing.Point(15, 57);
             this.lbldomainname.Name = "lbldomainname";
-            this.lbldomainname.Size = new System.Drawing.Size(35, 13);
+            this.lbldomainname.Size = new System.Drawing.Size(59, 25);
             this.lbldomainname.TabIndex = 11;
             this.lbldomainname.Text = "label7";
             // 
@@ -105,7 +108,7 @@
             this.lblsystemdirectory.AutoSize = true;
             this.lblsystemdirectory.Location = new System.Drawing.Point(15, 87);
             this.lblsystemdirectory.Name = "lblsystemdirectory";
-            this.lblsystemdirectory.Size = new System.Drawing.Size(35, 13);
+            this.lblsystemdirectory.Size = new System.Drawing.Size(59, 25);
             this.lblsystemdirectory.TabIndex = 10;
             this.lblsystemdirectory.Text = "label6";
             // 
@@ -114,7 +117,7 @@
             this.lblcpu.AutoSize = true;
             this.lblcpu.Location = new System.Drawing.Point(15, 145);
             this.lblcpu.Name = "lblcpu";
-            this.lblcpu.Size = new System.Drawing.Size(35, 13);
+            this.lblcpu.Size = new System.Drawing.Size(59, 25);
             this.lblcpu.TabIndex = 9;
             this.lblcpu.Text = "label4";
             // 
@@ -123,7 +126,7 @@
             this.lblmonitorsize.AutoSize = true;
             this.lblmonitorsize.Location = new System.Drawing.Point(15, 116);
             this.lblmonitorsize.Name = "lblmonitorsize";
-            this.lblmonitorsize.Size = new System.Drawing.Size(35, 13);
+            this.lblmonitorsize.Size = new System.Drawing.Size(59, 25);
             this.lblmonitorsize.TabIndex = 8;
             this.lblmonitorsize.Text = "label2";
             // 
@@ -132,56 +135,62 @@
             this.lblsystemname.AutoSize = true;
             this.lblsystemname.Location = new System.Drawing.Point(15, 27);
             this.lblsystemname.Name = "lblsystemname";
-            this.lblsystemname.Size = new System.Drawing.Size(35, 13);
+            this.lblsystemname.Size = new System.Drawing.Size(59, 25);
             this.lblsystemname.TabIndex = 7;
             this.lblsystemname.Text = "label1";
             // 
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.lstinfo);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Location = new System.Drawing.Point(4, 34);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(445, 262);
+            this.tabPage2.Size = new System.Drawing.Size(445, 250);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Process";
             // 
             // lstinfo
             // 
             this.lstinfo.FormattingEnabled = true;
+            this.lstinfo.ItemHeight = 25;
             this.lstinfo.Location = new System.Drawing.Point(7, 6);
             this.lstinfo.Name = "lstinfo";
-            this.lstinfo.Size = new System.Drawing.Size(435, 251);
+            this.lstinfo.Size = new System.Drawing.Size(435, 229);
             this.lstinfo.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn1
             // 
             this.dataGridViewTextBoxColumn1.HeaderText = "Sno";
+            this.dataGridViewTextBoxColumn1.MinimumWidth = 8;
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
             this.dataGridViewTextBoxColumn1.Width = 40;
             // 
             // dataGridViewTextBoxColumn2
             // 
             this.dataGridViewTextBoxColumn2.HeaderText = "Process Name";
+            this.dataGridViewTextBoxColumn2.MinimumWidth = 8;
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
             this.dataGridViewTextBoxColumn2.Width = 250;
             // 
             // dataGridViewTextBoxColumn3
             // 
             this.dataGridViewTextBoxColumn3.HeaderText = "Process ID";
+            this.dataGridViewTextBoxColumn3.MinimumWidth = 8;
             this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.Width = 150;
             // 
             // SystemInfo
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.BackColor = System.Drawing.Color.FromArgb(240, 242, 245);
-            this.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(461, 298);
             this.ControlBox = true;
             this.Controls.Add(this.tabSystemInfo);
+            this.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "SystemInfo";

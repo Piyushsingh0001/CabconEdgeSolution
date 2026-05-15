@@ -51,7 +51,7 @@ namespace CAB.UI
             this.lngFileLists.Name = "lngFileLists";
             this.lngFileLists.SelectedIndex = 0;
             this.lngFileLists.SelectedRowId = "";
-            this.lngFileLists.Size = new System.Drawing.Size(1315, 505);
+            this.lngFileLists.Size = new System.Drawing.Size(1394, 479);
             this.lngFileLists.TabIndex = 0;
             this.lngFileLists.ValueColumn = null;
             this.lngFileLists.OnGridMouseDoubleClick += new CAB.UI.Controls.CABGridControl.CABGridMouseDoubleClick(this.lngFileLists_OnGridMouseDoubleClick);

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MeterPassword));
             this.CmriAuth_grpAuth = new System.Windows.Forms.GroupBox();
             this.lblCTRatioValidRange = new System.Windows.Forms.Label();
             this.txtCTRatio = new System.Windows.Forms.TextBox();
@@ -155,6 +156,7 @@
             this.Controls.Add(this.CmriAuth_grpAuth);
             this.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.MinimizeBox = false;

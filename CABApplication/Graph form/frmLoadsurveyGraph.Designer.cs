@@ -145,7 +145,8 @@ namespace CAB.UI
             this.toolStripPrintType});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1028, 57);
+            this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 3, 0);
+            this.toolStrip1.Size = new System.Drawing.Size(1469, 59);
             this.toolStrip1.TabIndex = 6;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -182,7 +183,7 @@ namespace CAB.UI
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 57);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 59);
             // 
             // toolStripButton2
             // 
@@ -218,7 +219,7 @@ namespace CAB.UI
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 57);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 59);
             // 
             // tsSeperate
             // 
@@ -243,7 +244,7 @@ namespace CAB.UI
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 57);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 59);
             // 
             // toolStripButton4
             // 
@@ -268,7 +269,7 @@ namespace CAB.UI
             // toolStripSeparator6
             // 
             this.toolStripSeparator6.Name = "toolStripSeparator6";
-            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 57);
+            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 59);
             // 
             // toolStripDropDownButton1
             // 
@@ -282,48 +283,48 @@ namespace CAB.UI
             this.toolStripDropDownButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton1.Image")));
             this.toolStripDropDownButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripDropDownButton1.Name = "toolStripDropDownButton1";
-            this.toolStripDropDownButton1.Size = new System.Drawing.Size(63, 54);
+            this.toolStripDropDownButton1.Size = new System.Drawing.Size(68, 54);
             this.toolStripDropDownButton1.Text = "ZOOM";
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(102, 22);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(159, 34);
             this.toolStripMenuItem2.Text = "100%";
             this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
             // 
             // toolStripMenuItem3
             // 
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(102, 22);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(159, 34);
             this.toolStripMenuItem3.Text = "200%";
             this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
             // 
             // toolStripMenuItem4
             // 
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(102, 22);
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(159, 34);
             this.toolStripMenuItem4.Text = "300%";
             this.toolStripMenuItem4.Click += new System.EventHandler(this.toolStripMenuItem4_Click);
             // 
             // toolStripMenuItem5
             // 
             this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-            this.toolStripMenuItem5.Size = new System.Drawing.Size(102, 22);
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(159, 34);
             this.toolStripMenuItem5.Text = "400%";
             this.toolStripMenuItem5.Click += new System.EventHandler(this.toolStripMenuItem5_Click);
             // 
             // toolStripMenuItem6
             // 
             this.toolStripMenuItem6.Name = "toolStripMenuItem6";
-            this.toolStripMenuItem6.Size = new System.Drawing.Size(102, 22);
+            this.toolStripMenuItem6.Size = new System.Drawing.Size(159, 34);
             this.toolStripMenuItem6.Text = "500%";
             this.toolStripMenuItem6.Click += new System.EventHandler(this.toolStripMenuItem6_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 57);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 59);
             // 
             // tsFirst
             // 
@@ -351,7 +352,7 @@ namespace CAB.UI
             this.tslabelDate.Image = ((System.Drawing.Image)(resources.GetObject("tslabelDate.Image")));
             this.tslabelDate.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tslabelDate.Name = "tslabelDate";
-            this.tslabelDate.Size = new System.Drawing.Size(69, 54);
+            this.tslabelDate.Size = new System.Drawing.Size(110, 54);
             this.tslabelDate.Text = "01/01/2000";
             // 
             // tsNext
@@ -377,7 +378,7 @@ namespace CAB.UI
             // toolStripSeparator7
             // 
             this.toolStripSeparator7.Name = "toolStripSeparator7";
-            this.toolStripSeparator7.Size = new System.Drawing.Size(6, 57);
+            this.toolStripSeparator7.Size = new System.Drawing.Size(6, 59);
             // 
             // toolStripButton3
             // 
@@ -414,7 +415,7 @@ namespace CAB.UI
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 57);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 59);
             // 
             // toolStripPrintType
             // 
@@ -424,15 +425,16 @@ namespace CAB.UI
             "Single Page",
             "Multiple Page"});
             this.toolStripPrintType.Name = "toolStripPrintType";
-            this.toolStripPrintType.Size = new System.Drawing.Size(121, 23);
+            this.toolStripPrintType.Size = new System.Drawing.Size(121, 59);
             // 
             // panel1
             // 
             this.panel1.Controls.Add(this.tableLayoutPanel1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 57);
+            this.panel1.Location = new System.Drawing.Point(0, 59);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1028, 580);
+            this.panel1.Size = new System.Drawing.Size(1469, 1003);
             this.panel1.TabIndex = 7;
             // 
             // tableLayoutPanel1
@@ -444,10 +446,11 @@ namespace CAB.UI
             this.tableLayoutPanel1.Controls.Add(this.panel3, 1, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1028, 580);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1469, 1003);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // panel2
@@ -463,18 +466,20 @@ namespace CAB.UI
             this.panel2.Controls.Add(this.chkLBParameterDisplay);
             this.panel2.Controls.Add(this.cboParameters);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(3, 3);
+            this.panel2.Location = new System.Drawing.Point(4, 5);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(197, 574);
+            this.panel2.Size = new System.Drawing.Size(282, 993);
             this.panel2.TabIndex = 0;
             // 
             // lblNP
             // 
             this.lblNP.AutoSize = true;
             this.lblNP.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNP.Location = new System.Drawing.Point(12, 530);
+            this.lblNP.Location = new System.Drawing.Point(17, 883);
+            this.lblNP.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNP.Name = "lblNP";
-            this.lblNP.Size = new System.Drawing.Size(83, 13);
+            this.lblNP.Size = new System.Drawing.Size(121, 20);
             this.lblNP.TabIndex = 42;
             this.lblNP.Text = "NL : No Load";
             // 
@@ -482,9 +487,10 @@ namespace CAB.UI
             // 
             this.lblNL.AutoSize = true;
             this.lblNL.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNL.Location = new System.Drawing.Point(12, 505);
+            this.lblNL.Location = new System.Drawing.Point(17, 842);
+            this.lblNL.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNL.Name = "lblNL";
-            this.lblNL.Size = new System.Drawing.Size(91, 13);
+            this.lblNL.Size = new System.Drawing.Size(133, 20);
             this.lblNL.TabIndex = 41;
             this.lblNL.Text = "NP : No Power";
             // 
@@ -492,10 +498,11 @@ namespace CAB.UI
             // 
             this.txtViewType.BackColor = System.Drawing.Color.White;
             this.txtViewType.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtViewType.Location = new System.Drawing.Point(127, 466);
+            this.txtViewType.Location = new System.Drawing.Point(181, 777);
+            this.txtViewType.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtViewType.Name = "txtViewType";
             this.txtViewType.ReadOnly = true;
-            this.txtViewType.Size = new System.Drawing.Size(92, 20);
+            this.txtViewType.Size = new System.Drawing.Size(130, 26);
             this.txtViewType.TabIndex = 40;
             this.txtViewType.Text = "Daily";
             // 
@@ -503,9 +510,10 @@ namespace CAB.UI
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
-            this.label5.Location = new System.Drawing.Point(12, 472);
+            this.label5.Location = new System.Drawing.Point(17, 787);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(66, 13);
+            this.label5.Size = new System.Drawing.Size(95, 20);
             this.label5.TabIndex = 39;
             this.label5.Text = "View Type";
             // 
@@ -526,9 +534,11 @@ namespace CAB.UI
             this.groupBox2.Controls.Add(this.lblSeries2);
             this.groupBox2.Controls.Add(this.lblSeries1);
             this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Location = new System.Drawing.Point(6, 277);
+            this.groupBox2.Location = new System.Drawing.Point(9, 462);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(225, 155);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox2.Size = new System.Drawing.Size(321, 258);
             this.groupBox2.TabIndex = 25;
             this.groupBox2.TabStop = false;
             // 
@@ -536,9 +546,10 @@ namespace CAB.UI
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(174, 16);
+            this.label2.Location = new System.Drawing.Point(249, 27);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(49, 13);
+            this.label2.Size = new System.Drawing.Size(70, 20);
             this.label2.TabIndex = 38;
             this.label2.Text = "Legend";
             // 
@@ -546,49 +557,54 @@ namespace CAB.UI
             // 
             this.txtSeries4.BackColor = System.Drawing.Color.White;
             this.txtSeries4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSeries4.Location = new System.Drawing.Point(121, 123);
+            this.txtSeries4.Location = new System.Drawing.Point(173, 205);
+            this.txtSeries4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtSeries4.Name = "txtSeries4";
             this.txtSeries4.ReadOnly = true;
-            this.txtSeries4.Size = new System.Drawing.Size(67, 20);
+            this.txtSeries4.Size = new System.Drawing.Size(94, 26);
             this.txtSeries4.TabIndex = 37;
             // 
             // txtSeries3
             // 
             this.txtSeries3.BackColor = System.Drawing.Color.White;
             this.txtSeries3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSeries3.Location = new System.Drawing.Point(121, 97);
+            this.txtSeries3.Location = new System.Drawing.Point(173, 162);
+            this.txtSeries3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtSeries3.Name = "txtSeries3";
             this.txtSeries3.ReadOnly = true;
-            this.txtSeries3.Size = new System.Drawing.Size(67, 20);
+            this.txtSeries3.Size = new System.Drawing.Size(94, 26);
             this.txtSeries3.TabIndex = 36;
             // 
             // txtSeries2
             // 
             this.txtSeries2.BackColor = System.Drawing.Color.White;
             this.txtSeries2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSeries2.Location = new System.Drawing.Point(121, 70);
+            this.txtSeries2.Location = new System.Drawing.Point(173, 117);
+            this.txtSeries2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtSeries2.Name = "txtSeries2";
             this.txtSeries2.ReadOnly = true;
-            this.txtSeries2.Size = new System.Drawing.Size(67, 20);
+            this.txtSeries2.Size = new System.Drawing.Size(94, 26);
             this.txtSeries2.TabIndex = 35;
             // 
             // txtSeries1
             // 
             this.txtSeries1.BackColor = System.Drawing.Color.White;
             this.txtSeries1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSeries1.Location = new System.Drawing.Point(121, 44);
+            this.txtSeries1.Location = new System.Drawing.Point(173, 73);
+            this.txtSeries1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtSeries1.Name = "txtSeries1";
             this.txtSeries1.ReadOnly = true;
-            this.txtSeries1.Size = new System.Drawing.Size(67, 20);
+            this.txtSeries1.Size = new System.Drawing.Size(94, 26);
             this.txtSeries1.TabIndex = 34;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(118, 16);
+            this.label1.Location = new System.Drawing.Point(169, 27);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(39, 13);
+            this.label1.Size = new System.Drawing.Size(56, 20);
             this.label1.TabIndex = 33;
             this.label1.Text = "Value";
             // 
@@ -596,10 +612,11 @@ namespace CAB.UI
             // 
             this.clrSeries4.BackColor = System.Drawing.Color.Green;
             this.clrSeries4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.clrSeries4.Location = new System.Drawing.Point(194, 123);
+            this.clrSeries4.Location = new System.Drawing.Point(277, 205);
+            this.clrSeries4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.clrSeries4.Name = "clrSeries4";
             this.clrSeries4.ReadOnly = true;
-            this.clrSeries4.Size = new System.Drawing.Size(19, 20);
+            this.clrSeries4.Size = new System.Drawing.Size(25, 26);
             this.clrSeries4.TabIndex = 32;
             this.clrSeries4.Click += new System.EventHandler(this.clrSeries4_Click);
             // 
@@ -607,10 +624,11 @@ namespace CAB.UI
             // 
             this.clrSeries3.BackColor = System.Drawing.Color.Blue;
             this.clrSeries3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.clrSeries3.Location = new System.Drawing.Point(194, 97);
+            this.clrSeries3.Location = new System.Drawing.Point(277, 162);
+            this.clrSeries3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.clrSeries3.Name = "clrSeries3";
             this.clrSeries3.ReadOnly = true;
-            this.clrSeries3.Size = new System.Drawing.Size(19, 20);
+            this.clrSeries3.Size = new System.Drawing.Size(25, 26);
             this.clrSeries3.TabIndex = 31;
             this.clrSeries3.Click += new System.EventHandler(this.clrSeries3_Click);
             // 
@@ -618,10 +636,11 @@ namespace CAB.UI
             // 
             this.clrSeries2.BackColor = System.Drawing.Color.Yellow;
             this.clrSeries2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.clrSeries2.Location = new System.Drawing.Point(194, 71);
+            this.clrSeries2.Location = new System.Drawing.Point(277, 118);
+            this.clrSeries2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.clrSeries2.Name = "clrSeries2";
             this.clrSeries2.ReadOnly = true;
-            this.clrSeries2.Size = new System.Drawing.Size(19, 20);
+            this.clrSeries2.Size = new System.Drawing.Size(25, 26);
             this.clrSeries2.TabIndex = 30;
             this.clrSeries2.Click += new System.EventHandler(this.clrSeries2_Click);
             // 
@@ -629,10 +648,11 @@ namespace CAB.UI
             // 
             this.clrSeries1.BackColor = System.Drawing.Color.Red;
             this.clrSeries1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.clrSeries1.Location = new System.Drawing.Point(194, 44);
+            this.clrSeries1.Location = new System.Drawing.Point(277, 73);
+            this.clrSeries1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.clrSeries1.Name = "clrSeries1";
             this.clrSeries1.ReadOnly = true;
-            this.clrSeries1.Size = new System.Drawing.Size(19, 20);
+            this.clrSeries1.Size = new System.Drawing.Size(25, 26);
             this.clrSeries1.TabIndex = 29;
             this.clrSeries1.Click += new System.EventHandler(this.clrSeries1_Click);
             // 
@@ -640,9 +660,10 @@ namespace CAB.UI
             // 
             this.lblSeries4.AutoSize = true;
             this.lblSeries4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
-            this.lblSeries4.Location = new System.Drawing.Point(6, 129);
+            this.lblSeries4.Location = new System.Drawing.Point(9, 215);
+            this.lblSeries4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSeries4.Name = "lblSeries4";
-            this.lblSeries4.Size = new System.Drawing.Size(53, 13);
+            this.lblSeries4.Size = new System.Drawing.Size(79, 20);
             this.lblSeries4.TabIndex = 28;
             this.lblSeries4.Text = "Series 4";
             // 
@@ -650,9 +671,10 @@ namespace CAB.UI
             // 
             this.lblSeries3.AutoSize = true;
             this.lblSeries3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
-            this.lblSeries3.Location = new System.Drawing.Point(6, 103);
+            this.lblSeries3.Location = new System.Drawing.Point(9, 172);
+            this.lblSeries3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSeries3.Name = "lblSeries3";
-            this.lblSeries3.Size = new System.Drawing.Size(53, 13);
+            this.lblSeries3.Size = new System.Drawing.Size(79, 20);
             this.lblSeries3.TabIndex = 27;
             this.lblSeries3.Text = "Series 3";
             // 
@@ -660,9 +682,10 @@ namespace CAB.UI
             // 
             this.lblSeries2.AutoSize = true;
             this.lblSeries2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
-            this.lblSeries2.Location = new System.Drawing.Point(6, 74);
+            this.lblSeries2.Location = new System.Drawing.Point(9, 123);
+            this.lblSeries2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSeries2.Name = "lblSeries2";
-            this.lblSeries2.Size = new System.Drawing.Size(53, 13);
+            this.lblSeries2.Size = new System.Drawing.Size(79, 20);
             this.lblSeries2.TabIndex = 26;
             this.lblSeries2.Text = "Series 2";
             // 
@@ -670,9 +693,10 @@ namespace CAB.UI
             // 
             this.lblSeries1.AutoSize = true;
             this.lblSeries1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
-            this.lblSeries1.Location = new System.Drawing.Point(6, 47);
+            this.lblSeries1.Location = new System.Drawing.Point(9, 78);
+            this.lblSeries1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSeries1.Name = "lblSeries1";
-            this.lblSeries1.Size = new System.Drawing.Size(53, 13);
+            this.lblSeries1.Size = new System.Drawing.Size(79, 20);
             this.lblSeries1.TabIndex = 25;
             this.lblSeries1.Text = "Series 1";
             // 
@@ -680,9 +704,10 @@ namespace CAB.UI
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
-            this.label4.Location = new System.Drawing.Point(6, 16);
+            this.label4.Location = new System.Drawing.Point(9, 27);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(64, 13);
+            this.label4.Size = new System.Drawing.Size(96, 20);
             this.label4.TabIndex = 24;
             this.label4.Text = "Parameter";
             // 
@@ -692,9 +717,11 @@ namespace CAB.UI
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.txtParamTime);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Location = new System.Drawing.Point(4, 185);
+            this.groupBox1.Location = new System.Drawing.Point(6, 308);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(225, 71);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox1.Size = new System.Drawing.Size(321, 118);
             this.groupBox1.TabIndex = 24;
             this.groupBox1.TabStop = false;
             // 
@@ -702,19 +729,21 @@ namespace CAB.UI
             // 
             this.txtMeterID.BackColor = System.Drawing.Color.White;
             this.txtMeterID.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMeterID.Location = new System.Drawing.Point(83, 41);
+            this.txtMeterID.Location = new System.Drawing.Point(119, 68);
+            this.txtMeterID.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtMeterID.Name = "txtMeterID";
             this.txtMeterID.ReadOnly = true;
-            this.txtMeterID.Size = new System.Drawing.Size(109, 20);
+            this.txtMeterID.Size = new System.Drawing.Size(154, 26);
             this.txtMeterID.TabIndex = 29;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
-            this.label6.Location = new System.Drawing.Point(8, 44);
+            this.label6.Location = new System.Drawing.Point(11, 73);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(56, 13);
+            this.label6.Size = new System.Drawing.Size(82, 20);
             this.label6.TabIndex = 28;
             this.label6.Text = "Meter ID";
             // 
@@ -722,19 +751,21 @@ namespace CAB.UI
             // 
             this.txtParamTime.BackColor = System.Drawing.Color.White;
             this.txtParamTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtParamTime.Location = new System.Drawing.Point(82, 13);
+            this.txtParamTime.Location = new System.Drawing.Point(117, 22);
+            this.txtParamTime.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtParamTime.Name = "txtParamTime";
             this.txtParamTime.ReadOnly = true;
-            this.txtParamTime.Size = new System.Drawing.Size(133, 20);
+            this.txtParamTime.Size = new System.Drawing.Size(188, 26);
             this.txtParamTime.TabIndex = 27;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(7, 16);
+            this.label3.Location = new System.Drawing.Point(10, 27);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(73, 13);
+            this.label3.Size = new System.Drawing.Size(109, 20);
             this.label3.TabIndex = 25;
             this.label3.Text = "Time Stamp";
             // 
@@ -742,9 +773,10 @@ namespace CAB.UI
             // 
             this.lblParameter.AutoSize = true;
             this.lblParameter.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
-            this.lblParameter.Location = new System.Drawing.Point(12, 17);
+            this.lblParameter.Location = new System.Drawing.Point(17, 28);
+            this.lblParameter.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblParameter.Name = "lblParameter";
-            this.lblParameter.Size = new System.Drawing.Size(64, 13);
+            this.lblParameter.Size = new System.Drawing.Size(96, 20);
             this.lblParameter.TabIndex = 21;
             this.lblParameter.Text = "Parameter";
             // 
@@ -753,9 +785,10 @@ namespace CAB.UI
             this.chkLBParameterDisplay.CheckOnClick = true;
             this.chkLBParameterDisplay.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkLBParameterDisplay.FormattingEnabled = true;
-            this.chkLBParameterDisplay.Location = new System.Drawing.Point(9, 54);
+            this.chkLBParameterDisplay.Location = new System.Drawing.Point(13, 90);
+            this.chkLBParameterDisplay.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.chkLBParameterDisplay.Name = "chkLBParameterDisplay";
-            this.chkLBParameterDisplay.Size = new System.Drawing.Size(217, 124);
+            this.chkLBParameterDisplay.Size = new System.Drawing.Size(308, 188);
             this.chkLBParameterDisplay.TabIndex = 20;
             this.chkLBParameterDisplay.SelectedValueChanged += new System.EventHandler(this.chkLBParameterDisplay_SelectedValueChanged);
             // 
@@ -772,9 +805,10 @@ namespace CAB.UI
             "Energy (Export)",
             "Power Factor",
             "Frequency"});
-            this.cboParameters.Location = new System.Drawing.Point(86, 14);
+            this.cboParameters.Location = new System.Drawing.Point(123, 23);
+            this.cboParameters.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cboParameters.Name = "cboParameters";
-            this.cboParameters.Size = new System.Drawing.Size(133, 21);
+            this.cboParameters.Size = new System.Drawing.Size(188, 33);
             this.cboParameters.TabIndex = 19;
             this.cboParameters.SelectedIndexChanged += new System.EventHandler(this.cboParameters_SelectedIndexChanged);
             // 
@@ -782,9 +816,10 @@ namespace CAB.UI
             // 
             this.panel3.Controls.Add(this.graphChart);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(206, 3);
+            this.panel3.Location = new System.Drawing.Point(294, 5);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(819, 574);
+            this.panel3.Size = new System.Drawing.Size(1171, 993);
             this.panel3.TabIndex = 1;
             // 
             // graphChart
@@ -815,6 +850,7 @@ namespace CAB.UI
             this.graphChart.ChartAreas.Add(chartArea1);
             this.graphChart.Dock = System.Windows.Forms.DockStyle.Fill;
             this.graphChart.Location = new System.Drawing.Point(0, 0);
+            this.graphChart.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.graphChart.Name = "graphChart";
             this.graphChart.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.None;
             series1.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.VerticalCenter;
@@ -836,23 +872,24 @@ namespace CAB.UI
             series2.Name = "Series2";
             this.graphChart.Series.Add(series1);
             this.graphChart.Series.Add(series2);
-            this.graphChart.Size = new System.Drawing.Size(819, 574);
+            this.graphChart.Size = new System.Drawing.Size(1171, 993);
             this.graphChart.TabIndex = 0;
             this.graphChart.Text = "Chart1";
-            this.graphChart.MouseUp += new System.Windows.Forms.MouseEventHandler(this.graphChart_MouseUp);
-            this.graphChart.MouseMove += new System.Windows.Forms.MouseEventHandler(this.graphChart_MouseMove);
             this.graphChart.KeyUp += new System.Windows.Forms.KeyEventHandler(this.graphChart_KeyUp);
+            this.graphChart.MouseMove += new System.Windows.Forms.MouseEventHandler(this.graphChart_MouseMove);
+            this.graphChart.MouseUp += new System.Windows.Forms.MouseEventHandler(this.graphChart_MouseUp);
             // 
             // frmLoadsurveyGraph
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.BackColor = System.Drawing.Color.FromArgb(240, 242, 245);
-            this.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
-            this.ClientSize = new System.Drawing.Size(1028, 637);
+            this.ClientSize = new System.Drawing.Size(1469, 1062);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.toolStrip1);
+            this.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MinimizeBox = false;
             this.Name = "frmLoadsurveyGraph";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ParallelCounterForm));
             this.rbSerial = new System.Windows.Forms.RadioButton();
             this.rbParallel = new System.Windows.Forms.RadioButton();
             this.lblThreadCount = new System.Windows.Forms.Label();
@@ -39,9 +40,10 @@
             // rbSerial
             // 
             this.rbSerial.AutoSize = true;
-            this.rbSerial.Location = new System.Drawing.Point(12, 8);
+            this.rbSerial.Location = new System.Drawing.Point(17, 13);
+            this.rbSerial.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.rbSerial.Name = "rbSerial";
-            this.rbSerial.Size = new System.Drawing.Size(107, 17);
+            this.rbSerial.Size = new System.Drawing.Size(165, 29);
             this.rbSerial.TabIndex = 0;
             this.rbSerial.TabStop = true;
             this.rbSerial.Text = "Read Sequencial";
@@ -51,9 +53,10 @@
             // rbParallel
             // 
             this.rbParallel.AutoSize = true;
-            this.rbParallel.Location = new System.Drawing.Point(12, 33);
+            this.rbParallel.Location = new System.Drawing.Point(17, 55);
+            this.rbParallel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.rbParallel.Name = "rbParallel";
-            this.rbParallel.Size = new System.Drawing.Size(88, 17);
+            this.rbParallel.Size = new System.Drawing.Size(135, 29);
             this.rbParallel.TabIndex = 1;
             this.rbParallel.TabStop = true;
             this.rbParallel.Text = "Read Parallel";
@@ -63,56 +66,62 @@
             // lblThreadCount
             // 
             this.lblThreadCount.AutoSize = true;
-            this.lblThreadCount.Location = new System.Drawing.Point(12, 57);
+            this.lblThreadCount.Location = new System.Drawing.Point(17, 95);
+            this.lblThreadCount.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblThreadCount.Name = "lblThreadCount";
-            this.lblThreadCount.Size = new System.Drawing.Size(125, 13);
+            this.lblThreadCount.Size = new System.Drawing.Size(201, 25);
             this.lblThreadCount.TabIndex = 2;
             this.lblThreadCount.Text = "Parallel Thread Pool Size";
             // 
             // txtThreadCount
             // 
-            this.txtThreadCount.Location = new System.Drawing.Point(143, 53);
+            this.txtThreadCount.Location = new System.Drawing.Point(204, 88);
+            this.txtThreadCount.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtThreadCount.Name = "txtThreadCount";
-            this.txtThreadCount.Size = new System.Drawing.Size(100, 20);
+            this.txtThreadCount.Size = new System.Drawing.Size(141, 31);
             this.txtThreadCount.TabIndex = 3;
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(142, 112);
+            this.btnSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(120)))), ((int)(((byte)(215)))));
+            this.btnSave.FlatAppearance.BorderSize = 0;
+            this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSave.ForeColor = System.Drawing.Color.White;
+            this.btnSave.Location = new System.Drawing.Point(203, 187);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(75, 23);
+            this.btnSave.Size = new System.Drawing.Size(107, 38);
             this.btnSave.TabIndex = 4;
             this.btnSave.Text = "SAVE";
             this.btnSave.UseVisualStyleBackColor = false;
-            this.btnSave.BackColor = System.Drawing.Color.FromArgb(0, 120, 215);
-            this.btnSave.ForeColor = System.Drawing.Color.White;
-            this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSave.FlatAppearance.BorderSize = 0;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // lblMessage
             // 
             this.lblMessage.AutoSize = true;
             this.lblMessage.ForeColor = System.Drawing.Color.Black;
-            this.lblMessage.Location = new System.Drawing.Point(12, 85);
+            this.lblMessage.Location = new System.Drawing.Point(17, 142);
+            this.lblMessage.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMessage.Name = "lblMessage";
-            this.lblMessage.Size = new System.Drawing.Size(205, 13);
+            this.lblMessage.Size = new System.Drawing.Size(341, 25);
             this.lblMessage.TabIndex = 5;
             this.lblMessage.Text = "TCP is applicable for DLMS meters only !!!";
             // 
             // ParallelCounterForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.BackColor = System.Drawing.Color.FromArgb(240, 242, 245);
-            this.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(346, 138);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(242)))), ((int)(((byte)(245)))));
+            this.ClientSize = new System.Drawing.Size(494, 230);
             this.Controls.Add(this.lblMessage);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.txtThreadCount);
             this.Controls.Add(this.lblThreadCount);
             this.Controls.Add(this.rbParallel);
             this.Controls.Add(this.rbSerial);
+            this.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "ParallelCounterForm";
             this.Text = "ParallelCounterForm";
             this.Load += new System.EventHandler(this.ParallelCounterForm_Load);

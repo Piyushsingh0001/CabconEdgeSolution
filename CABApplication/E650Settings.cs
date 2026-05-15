@@ -1,4 +1,4 @@
-﻿#region Namespaces
+#region Namespaces
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -258,22 +258,12 @@ namespace CAB.UI
 
 
 
-                //MessageBox.Show("Setting's Saved Successfully.", "BCS", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1);
-                DialogResult msgresult = MessageBox.Show("Settings Saved ! " + System.Environment.NewLine + System.Environment.NewLine + "Please Restart the application to apply setting changes." + System.Environment.NewLine + "Do you want to restart the application ?", "BCS", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
-                if (msgresult == DialogResult.Yes)
-                {
-                    Application.Exit();
-                }
-                else if (msgresult == DialogResult.No)
-                {
-                    this.Close();
-                }
-
-
+                MessageBox.Show("Settings Saved Successfully.", "Cabcon", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1);
+                this.Close();
             }
             else
             {
-                MessageBox.Show(errorMessage, "BCS", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
+                MessageBox.Show(errorMessage, "Cabcon", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
             }
 
         }

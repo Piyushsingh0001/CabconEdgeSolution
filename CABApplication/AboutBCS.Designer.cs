@@ -142,7 +142,7 @@
             this.lblproductname.Location = new System.Drawing.Point(168, 26);
             this.lblproductname.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblproductname.Name = "lblproductname";
-            this.lblproductname.Size = new System.Drawing.Size(252, 30);
+            this.lblproductname.Size = new System.Drawing.Size(168, 20);
             this.lblproductname.TabIndex = 7;
             this.lblproductname.Text = "Cabcon Edge Solution";
             this.lblproductname.Click += new System.EventHandler(this.lblproductname_Click);
@@ -154,7 +154,7 @@
             this.lblCname.Location = new System.Drawing.Point(168, 112);
             this.lblCname.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCname.Name = "lblCname";
-            this.lblCname.Size = new System.Drawing.Size(296, 30);
+            this.lblCname.Size = new System.Drawing.Size(197, 20);
             this.lblCname.TabIndex = 6;
             this.lblCname.Text = "Cabcon Technologies  Ltd.";
             // 
@@ -244,6 +244,7 @@
             this.Controls.Add(this.lblliciencedto);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(6);
             this.MaximizeBox = false;
             this.MinimizeBox = false;

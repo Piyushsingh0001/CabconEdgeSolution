@@ -58,11 +58,11 @@ namespace CAB.UI
             // 
             // btnLogin
             // 
-            this.btnLogin.BackColor = System.Drawing.Color.FromArgb(0, 120, 215);
-            this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(120)))), ((int)(((byte)(215)))));
             this.btnLogin.FlatAppearance.BorderSize = 0;
-            this.btnLogin.ForeColor = System.Drawing.Color.White;
+            this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogin.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.ForeColor = System.Drawing.Color.White;
             this.btnLogin.Location = new System.Drawing.Point(387, 282);
             this.btnLogin.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnLogin.Name = "btnLogin";
@@ -78,13 +78,13 @@ namespace CAB.UI
             this.txtPassword.BackColor = System.Drawing.Color.White;
             this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtPassword.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPassword.ForeColor = System.Drawing.Color.FromArgb(32, 32, 32);
+            this.txtPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.txtPassword.Location = new System.Drawing.Point(348, 220);
             this.txtPassword.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtPassword.MaxLength = 10;
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
-            this.txtPassword.Size = new System.Drawing.Size(214, 26);
+            this.txtPassword.Size = new System.Drawing.Size(214, 33);
             this.txtPassword.TabIndex = 1;
             this.txtPassword.UseSystemPasswordChar = true;
             // 
@@ -93,22 +93,22 @@ namespace CAB.UI
             this.txtUserName.BackColor = System.Drawing.Color.White;
             this.txtUserName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtUserName.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUserName.ForeColor = System.Drawing.Color.FromArgb(32, 32, 32);
+            this.txtUserName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.txtUserName.Location = new System.Drawing.Point(348, 168);
             this.txtUserName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtUserName.MaxLength = 20;
             this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(214, 26);
+            this.txtUserName.Size = new System.Drawing.Size(214, 33);
             this.txtUserName.TabIndex = 0;
             // 
             // btnCancel
             // 
-            this.btnCancel.BackColor = System.Drawing.Color.FromArgb(96, 96, 96);
-            this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCancel.FlatAppearance.BorderSize = 0;
-            this.btnCancel.ForeColor = System.Drawing.Color.White;
-            this.btnCancel.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(96)))), ((int)(((byte)(96)))));
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btnCancel.FlatAppearance.BorderSize = 0;
+            this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancel.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel.ForeColor = System.Drawing.Color.White;
             this.btnCancel.Location = new System.Drawing.Point(480, 282);
             this.btnCancel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCancel.Name = "btnCancel";
@@ -124,11 +124,11 @@ namespace CAB.UI
             this.lngLabel1.AutoSize = true;
             this.lngLabel1.BackColor = System.Drawing.Color.Transparent;
             this.lngLabel1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lngLabel1.ForeColor = System.Drawing.Color.FromArgb(32, 32, 32);
+            this.lngLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.lngLabel1.Location = new System.Drawing.Point(244, 174);
             this.lngLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lngLabel1.Name = "lngLabel1";
-            this.lngLabel1.Size = new System.Drawing.Size(66, 20);
+            this.lngLabel1.Size = new System.Drawing.Size(77, 25);
             this.lngLabel1.TabIndex = 22;
             this.lngLabel1.Text = "Login Id";
             this.lngLabel1.TranslationKey = "L000001";
@@ -139,11 +139,11 @@ namespace CAB.UI
             this.lngLabel2.AutoSize = true;
             this.lngLabel2.BackColor = System.Drawing.Color.Transparent;
             this.lngLabel2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lngLabel2.ForeColor = System.Drawing.Color.FromArgb(32, 32, 32);
+            this.lngLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.lngLabel2.Location = new System.Drawing.Point(244, 226);
             this.lngLabel2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lngLabel2.Name = "lngLabel2";
-            this.lngLabel2.Size = new System.Drawing.Size(78, 20);
+            this.lngLabel2.Size = new System.Drawing.Size(87, 25);
             this.lngLabel2.TabIndex = 23;
             this.lngLabel2.Text = "Password";
             this.lngLabel2.TranslationKey = "L000002";
@@ -155,7 +155,7 @@ namespace CAB.UI
             this.linklblRegister.Location = new System.Drawing.Point(20, 317);
             this.linklblRegister.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linklblRegister.Name = "linklblRegister";
-            this.linklblRegister.Size = new System.Drawing.Size(80, 20);
+            this.linklblRegister.Size = new System.Drawing.Size(90, 25);
             this.linklblRegister.TabIndex = 24;
             this.linklblRegister.TabStop = true;
             this.linklblRegister.Text = "linkLabel1";
@@ -165,11 +165,11 @@ namespace CAB.UI
             // 
             this.lbl_ShowDemo.AutoSize = true;
             this.lbl_ShowDemo.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_ShowDemo.ForeColor = System.Drawing.Color.FromArgb(96, 96, 96);
+            this.lbl_ShowDemo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(96)))), ((int)(((byte)(96)))));
             this.lbl_ShowDemo.Location = new System.Drawing.Point(20, 292);
             this.lbl_ShowDemo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_ShowDemo.Name = "lbl_ShowDemo";
-            this.lbl_ShowDemo.Size = new System.Drawing.Size(51, 20);
+            this.lbl_ShowDemo.Size = new System.Drawing.Size(59, 25);
             this.lbl_ShowDemo.TabIndex = 25;
             this.lbl_ShowDemo.Text = "label1";
             // 
